@@ -1382,14 +1382,6 @@
   ],
   "losas": [
     {
-      "piso": "Piso",
-      "plano": "Plano",
-      "resistencia": null,
-      "area": null,
-      "volumen": null,
-      "peso": null
-    },
-    {
       "piso": "Cimentación",
       "plano": "1157-EST-2300-PP-P1-PLANTA DE CIMENTACIÓN",
       "resistencia": 42,
