@@ -756,7 +756,7 @@ function renderGraficaResistenciaPorPiso(vigas) {
 
   // ===== ORDEN CORRECTO (cimentación abajo) =====
   const pisos = Object.keys(porPiso)
-    .sort((a, b) => obtenerOrdenPiso(b) - obtenerOrdenPiso(a));
+    .sort((a, b) => obtenerOrdenPiso(a) - obtenerOrdenPiso(b));
 
   // ===== DATASETS (ESTILO ORIGINAL APILADO) =====
   const datasets = pisos.map(piso => {

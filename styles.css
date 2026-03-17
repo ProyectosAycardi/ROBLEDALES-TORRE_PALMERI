@@ -520,11 +520,13 @@ body.login {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow:hidden;
 }
 
 .login-image img {
   max-width: 90%;
-  height: auto;
+  height: 90%;
+  object-fit: contain;
 }
 
 .login-content {
