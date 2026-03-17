@@ -730,9 +730,8 @@ function renderGrafica() {
 
 function renderGraficaResistenciaPorPiso(vigas) {
 
-  // 1. Eliminar la primera fila (encabezados)
   const datos = vigas.filter(v =>
-  v.piso && !isNaN(Number(v.resistencia))
+    v.piso && !isNaN(Number(v.resistencia))
   );
 
   if (datos.length === 0) {
@@ -740,7 +739,7 @@ function renderGraficaResistenciaPorPiso(vigas) {
     return;
   }
 
-  // 2. Agrupar por piso (resistencia promedio)
+  // ===== AGRUPAR POR PISO =====
   const porPiso = {};
 
   datos.forEach(v => {
@@ -755,13 +754,13 @@ function renderGraficaResistenciaPorPiso(vigas) {
     porPiso[piso].n++;
   });
 
-  // 3. Ordenar pisos
-  const pisos = [...new Set(datos.map(d => d.piso))]
-    .sort((a, b) => obtenerOrdenPiso(a) - obtenerOrdenPiso(b));
+  // ===== ORDEN CORRECTO (cimentación abajo) =====
+  const pisos = Object.keys(porPiso)
+    .sort((a, b) => obtenerOrdenPiso(b) - obtenerOrdenPiso(a));
 
-
-  // 4. Crear datasets (uno por piso)
+  // ===== DATASETS (ESTILO ORIGINAL APILADO) =====
   const datasets = pisos.map(piso => {
+
     const resProm = porPiso[piso].suma / porPiso[piso].n;
 
     return {
@@ -771,6 +770,7 @@ function renderGraficaResistenciaPorPiso(vigas) {
       resistencia: resProm,
       stack: "pisos"
     };
+
   });
 
   const ctx = document.getElementById("graficaPisos");
@@ -799,23 +799,22 @@ function renderGraficaResistenciaPorPiso(vigas) {
         },
         y: {
           stacked: true,
-          ticks: {
-            callback: (_, index) => pisos[index]
-          },
-          title: {
-            display: true,
-            text: "Pisos"
-          }
+          display: false // 🔥 clave para evitar desfase
         }
       },
 
       plugins: {
         legend: { display: false },
+
         datalabels: {
           color: "#fff",
-          font: { weight: "bold" },
-          formatter: (_, ctx) =>
-            ctx.dataset.resistencia.toFixed(0) + " MPa"
+          font: { weight: "bold", size: 10 },
+
+          formatter: (_, ctx) => {
+            const piso = ctx.dataset.label;
+            const res = ctx.dataset.resistencia.toFixed(0);
+            return `${piso}  |  ${res} MPa`;
+          }
         }
       }
     },

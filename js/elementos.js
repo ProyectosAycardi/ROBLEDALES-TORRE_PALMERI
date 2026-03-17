@@ -677,7 +677,7 @@ function renderGraficaResistenciaPorPiso(vigas) {
     return;
   }
 
-  // 2. Agrupar por piso (resistencia promedio)
+  // ===== AGRUPAR POR PISO =====
   const porPiso = {};
 
   datos.forEach(v => {
@@ -692,13 +692,13 @@ function renderGraficaResistenciaPorPiso(vigas) {
     porPiso[piso].n++;
   });
 
-  // 3. Ordenar pisos
+  // ===== ORDEN CORRECTO (cimentación abajo) =====
   const pisos = Object.keys(porPiso)
     .sort((a, b) => obtenerOrdenPiso(a) - obtenerOrdenPiso(b));
 
-
-  // 4. Crear datasets (uno por piso)
+  // ===== DATASETS (ESTILO ORIGINAL APILADO) =====
   const datasets = pisos.map(piso => {
+
     const resProm = porPiso[piso].suma / porPiso[piso].n;
 
     return {
@@ -708,6 +708,7 @@ function renderGraficaResistenciaPorPiso(vigas) {
       resistencia: resProm,
       stack: "pisos"
     };
+
   });
 
   const ctx = document.getElementById("graficaPisos");
@@ -717,11 +718,12 @@ function renderGraficaResistenciaPorPiso(vigas) {
     window.chartPisos.destroy();
   }
 
+  // ===== CHART =====
   window.chartPisos = new Chart(ctx, {
     type: "bar",
     data: {
       labels: ["Resistencia"],
-      datasets
+      datasets: datasets
     },
     options: {
       indexAxis: "x",
@@ -736,23 +738,22 @@ function renderGraficaResistenciaPorPiso(vigas) {
         },
         y: {
           stacked: true,
-          ticks: {
-            callback: (_, index) => pisos[index]
-          },
-          title: {
-            display: true,
-            text: "Pisos"
-          }
+          display: false // 🔥 quitamos eje para evitar desfase
         }
       },
 
       plugins: {
         legend: { display: false },
+
         datalabels: {
           color: "#fff",
-          font: { weight: "bold" },
-          formatter: (_, ctx) =>
-            ctx.dataset.resistencia.toFixed(0) + " MPa"
+          font: { weight: "bold", size: 10 },
+
+          formatter: (_, ctx) => {
+            const piso = ctx.dataset.label;
+            const res = ctx.dataset.resistencia.toFixed(0);
+            return `${piso}  |  ${res} MPa`;
+          }
         }
       }
     },
