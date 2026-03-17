@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Observaciones del proyecto</title>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="header-left">
+    <button class="back" onclick="history.back()">←</button>
+    <button class="icon-btn" onclick="window.location.href='app.html'">🏠</button>
+    </div>
+
+    <div class="header-center">
+        <h1 id="tituloProyecto"></h1>
+        <h2>PUNTOS CRÍTICOS DEL PROYECTO</h2>
+    </div>
+
+    <div class="header-right">
+        <img src="assets/img/LogoB.png" class="logo">
+    </div>
+
+</header>
+
+
+
+<main class="main-content">
+
+<div class="selector-elemento">
+
+    <select id="filtroCategoria">
+        <option value="TODAS">Todas las categorías</option>
+        </select>
+
+        <select id="filtroNivel">
+        <option value="TODOS">Todos los niveles</option>
+        <option value="Alta">Alta</option>
+        <option value="Media">Media</option>
+        <option value="Baja">Baja</option>
+    </select>
+
+</div>
+
+<section class="contenido">
+    <div id="contenedorObservaciones">
+        <p class="muted">Cargando observaciones…</p>
+    </div>
+</section>
+
+</main>
+
+
+<script src="js/observaciones.js"></script>
+<script src="js/login.js"></script>
+
+<script>
+protegerPagina();
+</script>
+
+<footer class="marca-footer">
+Aycardi Estructural © 2026
+</footer>
+
+</body>
+
+<nav class="side-menu">
+<a href="parametros.html" title="Parámetros">📋</a>
+<a href="elementos.html?tipo=columnas" title="Columnas"><img src="assets/img/ICONOS/IcoColumna.png" width="20"></a>
+<a href="elementos.html?tipo=vigas" title="Vigas"><img src="assets/img/ICONOS/IcoViga.png" width="20"></a>
+<a href="elementos.html?tipo=muros" title="Muros"><img src="assets/img/ICONOS/IcoMuro.png" width="20"></a>
+<a href="elementos.html?tipo=losas" title="Entrepiso"><img src="assets/img/ICONOS/IcoLosa.png" width="20"></a>
+<a href="planos.html" title="Planos"><img src="assets/img/ICONOS/IcoPlano.png" width="20"></a>
+<a href="observaciones.html" title="Observaciones">⚠️</a>
+<a href="recomendaciones.html" title="Informes Técnicos"><img src="assets/img/ICONOS/IcoRecom.png" width="20"></a>
+</nav>
+
+</html>
