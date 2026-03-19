@@ -10,18 +10,10 @@
     "ingenieroSuelos": "ESPINOSA Y RESTREPO",
     "gerenteProyecto": "Roberto Aycardi",
     "directorProyecto": "Cristina Gil",
-    "progresoDibujo": 0.6,
-    "progresoDiseno": 0.941558441558442
+    "progresoDibujo": 60,
+    "progresoDiseno": 95
   },
   "planos": [
-    {
-      "plano": "Plano",
-      "numero": "Número",
-      "version": null,
-      "fecha": null,
-      "contenido": "Contenido",
-      "pdf": "Plano.pdf"
-    },
     {
       "plano": "1157-EST-2001-PD-P1-ÍNDICE DE PLANOS",
       "numero": "2001",
@@ -1313,16 +1305,6 @@
     }
   ],
   "columnas": [
-    {
-      "id": "ID COLUMNA",
-      "seccion": "Sección",
-      "cantidad": null,
-      "piso": "Piso",
-      "resistencia": null,
-      "plano": "Plano",
-      "volumen": null,
-      "peso": null
-    },
     {
       "id": "C-01",
       "seccion": "S=Ø70",
@@ -3728,16 +3710,6 @@
     }
   ],
   "vigas": [
-    {
-      "id": "ID VIGA",
-      "piso": "Piso",
-      "seccion": "Sección",
-      "plano": "Plano",
-      "cantidad": null,
-      "resistencia": null,
-      "volumen": null,
-      "peso": null
-    },
     {
       "id": "VC-001",
       "piso": "Cimentación",
@@ -18411,14 +18383,6 @@
   ],
   "losas": [
     {
-      "piso": "Piso",
-      "plano": "Plano",
-      "resistencia": null,
-      "area": null,
-      "volumen": null,
-      "peso": null
-    },
-    {
       "piso": "Cimentación",
       "plano": "1157-EST-2300-PP-P1-PLANTA DE CIMENTACIÓN",
       "resistencia": 42,
@@ -18644,16 +18608,6 @@
     }
   ],
   "contencion": [
-    {
-      "id": "ID MURO",
-      "espesor": null,
-      "longitud": null,
-      "altura": null,
-      "plano": "Plano",
-      "resistencia": null,
-      "volumen": null,
-      "peso": null
-    },
     {
       "id": "Contención Tipo 1",
       "espesor": 0.3,
