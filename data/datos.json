@@ -2330,13 +2330,34 @@
       "pdf": "Anclajes epóxicos.pdf"
     },
     {
+      "documento": "Concreto ciclopeo",
+      "pdf": "Concreto ciclopeo.pdf"
+    },
+    {
+      "documento": "Curado en el concreto",
+      "pdf": "Curado en el concreto.pdf"
+    },
+    {
       "documento": "Discos de anclaje",
       "pdf": "Discos de anclaje.pdf"
     },
     {
       "documento": "Empalmes mecánicos",
       "pdf": "Empalmes mecánicos.pdf"
+    },
+    {
+      "documento": "Losas de contrapiso",
+      "pdf": "Losas de contrapiso.pdf"
+    },
+    {
+      "documento": "Resistencia del concreto",
+      "pdf": "Resistencia del concreto.pdf"
+    },
+    {
+      "documento": "Traslapos y empalmes",
+      "pdf": "Traslapos y empalmes.pdf"
     }
+    
   ],
   "observaciones": [
     {
