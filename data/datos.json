@@ -10,8 +10,8 @@
     "ingenieroSuelos": "ESPINOSA Y RESTREPO",
     "gerenteProyecto": "Roberto Aycardi",
     "directorProyecto": "Cristina Gil",
-    "progresoDibujo": 60,
-    "progresoDiseno": 95
+    "progresoDibujo": 100,
+    "progresoDiseno": 100
   },
   "planos": [
     {
@@ -215,12 +215,12 @@
       "pdf": "1157-EST-2219-PD-P1-DESPICES DE MUROS.pdf"
     },
     {
-      "plano": "1157-EST-2220-PD-P1-DESPICES DE MUROS",
+      "plano": "1157-EST-2220-PD-P1-DESPIECE DE MUROS DE CONTENCIÓN",
       "numero": "2220",
       "version": 0,
       "fecha": 46098,
       "contenido": "DESPICES DE MUROS",
-      "pdf": "1157-EST-2220-PD-P1-DESPICES DE MUROS.pdf"
+      "pdf": "1157-EST-2220-PD-P1-DESPIECE DE MUROS DE CONTENCIÓN.pdf"
     },
     {
       "plano": "1157-EST-2300-PP-P1-PLANTA DE CIMENTACIÓN",
@@ -1249,17 +1249,6 @@
   ],
   "pilotes": [
     {
-      "id": "ID PILOTE",
-      "seccion": "Sección",
-      "cantidad": null,
-      "prof": null,
-      "longitud": null,
-      "plano": "Plano",
-      "resistencia": null,
-      "volumen": null,
-      "peso": null
-    },
-    {
       "id": "Pilote T1",
       "seccion": "Ø.80 m ",
       "cantidad": 97,
@@ -1267,8 +1256,8 @@
       "longitud": 19.43,
       "plano": "1157-EST-2101-PD-P1-DETALLES Y CUADRO DE PILOTES",
       "resistencia": 28,
-      "volumen": 947.358574423555,
-      "peso": 70673.048125
+      "volumen": 948.65,
+      "peso": 70766
     },
     {
       "id": "Pilote T2",
@@ -1278,8 +1267,8 @@
       "longitud": 18.9,
       "plano": "1157-EST-2101-PD-P1-DETALLES Y CUADRO DE PILOTES",
       "resistencia": 28,
-      "volumen": 276.544191119385,
-      "peso": 21227.1025
+      "volumen": 277.75,
+      "peso": 21256
     },
     {
       "id": "Pilote T3",
@@ -1289,19 +1278,30 @@
       "longitud": 19,
       "plano": "1157-EST-2101-PD-P1-DETALLES Y CUADRO DE PILOTES",
       "resistencia": 28,
-      "volumen": 216.675645318088,
-      "peso": 15349.5975
+      "volumen": 217.44,
+      "peso": 15372
     },
     {
       "id": "Pilote T4",
       "seccion": "Ø.120 m ",
-      "cantidad": 26,
+      "cantidad": 24,
       "prof": 21,
       "longitud": 18.85,
       "plano": "1157-EST-2101-PD-P1-DETALLES Y CUADRO DE PILOTES",
       "resistencia": 28,
-      "volumen": 554.290041428769,
-      "peso": 38520.625
+      "volumen": 514.59,
+      "peso": 35609
+    },
+    {
+      "id": "Pilote T4",
+      "seccion": "Ø.120 m ",
+      "cantidad": 2,
+      "prof": 18.7,
+      "longitud": 18.7,
+      "plano": "1157-EST-2101-PD-P1-DETALLES Y CUADRO DE PILOTES",
+      "resistencia": 28,
+      "volumen": 41.17,
+      "peso": 2967
     }
   ],
   "columnas": [
@@ -1311,9 +1311,209 @@
       "cantidad": 1,
       "piso": "SOTANO 2",
       "resistencia": 56,
-      "plano": "",
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
       "volumen": 1.02,
       "peso": 7421.25
+    },
+    {
+      "id": "C-01",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "SOTANO 1",
+      "resistencia": 56,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.14,
+      "peso": 0
+    },
+    {
+      "id": "C-01",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "1",
+      "resistencia": 56,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.75,
+      "peso": 0
+    },
+    {
+      "id": "C-01",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "2",
+      "resistencia": 56,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-01",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "3",
+      "resistencia": 56,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-01",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "4",
+      "resistencia": 49,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-01",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "5",
+      "resistencia": 49,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-01",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "6",
+      "resistencia": 49,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-01",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "7",
+      "resistencia": 49,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-01",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "8",
+      "resistencia": 42,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-01",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "9",
+      "resistencia": 42,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-01",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "10",
+      "resistencia": 42,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-01",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "11",
+      "resistencia": 42,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-01",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "12",
+      "resistencia": 35,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-01",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "13",
+      "resistencia": 35,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-01",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "14",
+      "resistencia": 35,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-01",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "15",
+      "resistencia": 35,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-01",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "16",
+      "resistencia": 28,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-01",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "17",
+      "resistencia": 28,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-01",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "18",
+      "resistencia": 28,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-01",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "19",
+      "resistencia": 28,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.56,
+      "peso": 0
     },
     {
       "id": "C-02",
@@ -1321,9 +1521,219 @@
       "cantidad": 1,
       "piso": "SOTANO 2",
       "resistencia": 56,
-      "plano": "",
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
       "volumen": 1.86,
       "peso": 21923.91
+    },
+    {
+      "id": "C-02",
+      "seccion": "S=70x100",
+      "cantidad": 1,
+      "piso": "SOTANO 1",
+      "resistencia": 56,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.07,
+      "peso": 0
+    },
+    {
+      "id": "C-02",
+      "seccion": "S=70x100",
+      "cantidad": 1,
+      "piso": "1",
+      "resistencia": 56,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 3.19,
+      "peso": 0
+    },
+    {
+      "id": "C-02",
+      "seccion": "S=70x100",
+      "cantidad": 1,
+      "piso": "2",
+      "resistencia": 56,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.14,
+      "peso": 0
+    },
+    {
+      "id": "C-02",
+      "seccion": "S=70x100",
+      "cantidad": 1,
+      "piso": "3",
+      "resistencia": 56,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.14,
+      "peso": 0
+    },
+    {
+      "id": "C-02",
+      "seccion": "S=70x100",
+      "cantidad": 1,
+      "piso": "4",
+      "resistencia": 49,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.14,
+      "peso": 0
+    },
+    {
+      "id": "C-02",
+      "seccion": "S=70x100",
+      "cantidad": 1,
+      "piso": "5",
+      "resistencia": 49,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.14,
+      "peso": 0
+    },
+    {
+      "id": "C-02",
+      "seccion": "S=70x100",
+      "cantidad": 1,
+      "piso": "6",
+      "resistencia": 49,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.14,
+      "peso": 0
+    },
+    {
+      "id": "C-02",
+      "seccion": "S=70x100",
+      "cantidad": 1,
+      "piso": "7",
+      "resistencia": 49,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.14,
+      "peso": 0
+    },
+    {
+      "id": "C-02",
+      "seccion": "S=70x100",
+      "cantidad": 1,
+      "piso": "8",
+      "resistencia": 42,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.14,
+      "peso": 0
+    },
+    {
+      "id": "C-02",
+      "seccion": "S=70x100",
+      "cantidad": 1,
+      "piso": "9",
+      "resistencia": 42,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.14,
+      "peso": 0
+    },
+    {
+      "id": "C-02",
+      "seccion": "S=70x100",
+      "cantidad": 1,
+      "piso": "10",
+      "resistencia": 42,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.14,
+      "peso": 0
+    },
+    {
+      "id": "C-02",
+      "seccion": "S=70x100",
+      "cantidad": 1,
+      "piso": "11",
+      "resistencia": 42,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.14,
+      "peso": 0
+    },
+    {
+      "id": "C-02",
+      "seccion": "S=70x100",
+      "cantidad": 1,
+      "piso": "12",
+      "resistencia": 35,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.14,
+      "peso": 0
+    },
+    {
+      "id": "C-02",
+      "seccion": "S=70x100",
+      "cantidad": 1,
+      "piso": "13",
+      "resistencia": 35,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.14,
+      "peso": 0
+    },
+    {
+      "id": "C-02",
+      "seccion": "S=70x100",
+      "cantidad": 1,
+      "piso": "14",
+      "resistencia": 35,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.14,
+      "peso": 0
+    },
+    {
+      "id": "C-02",
+      "seccion": "S=70x100",
+      "cantidad": 1,
+      "piso": "15",
+      "resistencia": 35,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.14,
+      "peso": 0
+    },
+    {
+      "id": "C-02",
+      "seccion": "S=70x100",
+      "cantidad": 1,
+      "piso": "16",
+      "resistencia": 28,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.14,
+      "peso": 0
+    },
+    {
+      "id": "C-02",
+      "seccion": "S=70x100",
+      "cantidad": 1,
+      "piso": "17",
+      "resistencia": 28,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.14,
+      "peso": 0
+    },
+    {
+      "id": "C-02",
+      "seccion": "S=70x100",
+      "cantidad": 1,
+      "piso": "18",
+      "resistencia": 28,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.14,
+      "peso": 0
+    },
+    {
+      "id": "C-02",
+      "seccion": "S=70x100",
+      "cantidad": 1,
+      "piso": "19",
+      "resistencia": 28,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.14,
+      "peso": 0
+    },
+    {
+      "id": "C-02",
+      "seccion": "S=70x100",
+      "cantidad": 1,
+      "piso": "20",
+      "resistencia": 28,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.14,
+      "peso": 0
     },
     {
       "id": "C-03",
@@ -1331,9 +1741,229 @@
       "cantidad": 1,
       "piso": "SOTANO 2",
       "resistencia": 56,
-      "plano": "",
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
       "volumen": 1.06,
       "peso": 15566.85
+    },
+    {
+      "id": "C-03",
+      "seccion": "S=40x100",
+      "cantidad": 1,
+      "piso": "SOTANO 1",
+      "resistencia": 56,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.06,
+      "peso": 0
+    },
+    {
+      "id": "C-03",
+      "seccion": "S=40x100",
+      "cantidad": 1,
+      "piso": "1",
+      "resistencia": 56,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.82,
+      "peso": 0
+    },
+    {
+      "id": "C-03",
+      "seccion": "S=40x100",
+      "cantidad": 1,
+      "piso": "2",
+      "resistencia": 56,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-03",
+      "seccion": "S=40x100",
+      "cantidad": 1,
+      "piso": "3",
+      "resistencia": 56,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-03",
+      "seccion": "S=40x100",
+      "cantidad": 1,
+      "piso": "4",
+      "resistencia": 49,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-03",
+      "seccion": "S=40x100",
+      "cantidad": 1,
+      "piso": "5",
+      "resistencia": 49,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-03",
+      "seccion": "S=40x100",
+      "cantidad": 1,
+      "piso": "6",
+      "resistencia": 49,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-03",
+      "seccion": "S=40x100",
+      "cantidad": 1,
+      "piso": "7",
+      "resistencia": 49,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-03",
+      "seccion": "S=40x100",
+      "cantidad": 1,
+      "piso": "8",
+      "resistencia": 42,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-03",
+      "seccion": "S=40x100",
+      "cantidad": 1,
+      "piso": "9",
+      "resistencia": 42,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-03",
+      "seccion": "S=40x100",
+      "cantidad": 1,
+      "piso": "10",
+      "resistencia": 42,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-03",
+      "seccion": "S=40x100",
+      "cantidad": 1,
+      "piso": "11",
+      "resistencia": 42,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-03",
+      "seccion": "S=40x100",
+      "cantidad": 1,
+      "piso": "12",
+      "resistencia": 35,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-03",
+      "seccion": "S=40x100",
+      "cantidad": 1,
+      "piso": "13",
+      "resistencia": 35,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-03",
+      "seccion": "S=40x100",
+      "cantidad": 1,
+      "piso": "14",
+      "resistencia": 35,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-03",
+      "seccion": "S=40x100",
+      "cantidad": 1,
+      "piso": "15",
+      "resistencia": 35,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-03",
+      "seccion": "S=40x100",
+      "cantidad": 1,
+      "piso": "16",
+      "resistencia": 28,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-03",
+      "seccion": "S=40x100",
+      "cantidad": 1,
+      "piso": "17",
+      "resistencia": 28,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-03",
+      "seccion": "S=40x100",
+      "cantidad": 1,
+      "piso": "18",
+      "resistencia": 28,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-03",
+      "seccion": "S=40x100",
+      "cantidad": 1,
+      "piso": "19",
+      "resistencia": 28,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-03",
+      "seccion": "S=40x100",
+      "cantidad": 1,
+      "piso": "20",
+      "resistencia": 28,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-03",
+      "seccion": "S=40x100",
+      "cantidad": 1,
+      "piso": "21",
+      "resistencia": 28,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
     },
     {
       "id": "C-04",
@@ -1341,9 +1971,249 @@
       "cantidad": 3,
       "piso": "SOTANO 2",
       "resistencia": 56,
-      "plano": "",
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
       "volumen": 3.18,
       "peso": 46019.925
+    },
+    {
+      "id": "C-04",
+      "seccion": "S=40x100",
+      "cantidad": 3,
+      "piso": "SOTANO 1",
+      "resistencia": 56,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 3.18,
+      "peso": 0
+    },
+    {
+      "id": "C-04",
+      "seccion": "S=40x100",
+      "cantidad": 2,
+      "piso": "1",
+      "resistencia": 56,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 3.88,
+      "peso": 0
+    },
+    {
+      "id": "C-04",
+      "seccion": "S=40x100",
+      "cantidad": 1,
+      "piso": "1",
+      "resistencia": 56,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.82,
+      "peso": 0
+    },
+    {
+      "id": "C-04",
+      "seccion": "S=40x100",
+      "cantidad": 3,
+      "piso": "2",
+      "resistencia": 56,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 3.66,
+      "peso": 0
+    },
+    {
+      "id": "C-04",
+      "seccion": "S=40x100",
+      "cantidad": 3,
+      "piso": "3",
+      "resistencia": 56,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 3.66,
+      "peso": 0
+    },
+    {
+      "id": "C-04",
+      "seccion": "S=40x100",
+      "cantidad": 3,
+      "piso": "4",
+      "resistencia": 49,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 3.66,
+      "peso": 0
+    },
+    {
+      "id": "C-04",
+      "seccion": "S=40x100",
+      "cantidad": 3,
+      "piso": "5",
+      "resistencia": 49,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 3.66,
+      "peso": 0
+    },
+    {
+      "id": "C-04",
+      "seccion": "S=40x100",
+      "cantidad": 3,
+      "piso": "6",
+      "resistencia": 49,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 3.66,
+      "peso": 0
+    },
+    {
+      "id": "C-04",
+      "seccion": "S=40x100",
+      "cantidad": 3,
+      "piso": "7",
+      "resistencia": 49,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 3.66,
+      "peso": 0
+    },
+    {
+      "id": "C-04",
+      "seccion": "S=40x100",
+      "cantidad": 3,
+      "piso": "8",
+      "resistencia": 42,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 3.66,
+      "peso": 0
+    },
+    {
+      "id": "C-04",
+      "seccion": "S=40x100",
+      "cantidad": 3,
+      "piso": "9",
+      "resistencia": 42,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 3.66,
+      "peso": 0
+    },
+    {
+      "id": "C-04",
+      "seccion": "S=40x100",
+      "cantidad": 3,
+      "piso": "10",
+      "resistencia": 42,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 3.66,
+      "peso": 0
+    },
+    {
+      "id": "C-04",
+      "seccion": "S=40x100",
+      "cantidad": 3,
+      "piso": "11",
+      "resistencia": 42,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 3.66,
+      "peso": 0
+    },
+    {
+      "id": "C-04",
+      "seccion": "S=40x100",
+      "cantidad": 3,
+      "piso": "12",
+      "resistencia": 35,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 3.66,
+      "peso": 0
+    },
+    {
+      "id": "C-04",
+      "seccion": "S=40x100",
+      "cantidad": 3,
+      "piso": "13",
+      "resistencia": 35,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 3.66,
+      "peso": 0
+    },
+    {
+      "id": "C-04",
+      "seccion": "S=40x100",
+      "cantidad": 3,
+      "piso": "14",
+      "resistencia": 35,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 3.66,
+      "peso": 0
+    },
+    {
+      "id": "C-04",
+      "seccion": "S=40x100",
+      "cantidad": 3,
+      "piso": "15",
+      "resistencia": 35,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 3.66,
+      "peso": 0
+    },
+    {
+      "id": "C-04",
+      "seccion": "S=40x100",
+      "cantidad": 3,
+      "piso": "16",
+      "resistencia": 28,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 3.66,
+      "peso": 0
+    },
+    {
+      "id": "C-04",
+      "seccion": "S=40x100",
+      "cantidad": 3,
+      "piso": "17",
+      "resistencia": 28,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 3.66,
+      "peso": 0
+    },
+    {
+      "id": "C-04",
+      "seccion": "S=40x100",
+      "cantidad": 3,
+      "piso": "18",
+      "resistencia": 28,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 3.66,
+      "peso": 0
+    },
+    {
+      "id": "C-04",
+      "seccion": "S=40x100",
+      "cantidad": 3,
+      "piso": "19",
+      "resistencia": 28,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 3.66,
+      "peso": 0
+    },
+    {
+      "id": "C-04",
+      "seccion": "S=40x100",
+      "cantidad": 3,
+      "piso": "20",
+      "resistencia": 28,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 3.66,
+      "peso": 0
+    },
+    {
+      "id": "C-04",
+      "seccion": "S=40x100",
+      "cantidad": 3,
+      "piso": "21",
+      "resistencia": 28,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 3.66,
+      "peso": 0
+    },
+    {
+      "id": "C-04",
+      "seccion": "S=40x100",
+      "cantidad": 3,
+      "piso": "22",
+      "resistencia": 28,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 3.66,
+      "peso": 0
     },
     {
       "id": "C-05",
@@ -1351,9 +2221,239 @@
       "cantidad": 1,
       "piso": "SOTANO 2",
       "resistencia": 56,
-      "plano": "",
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
       "volumen": 1.02,
       "peso": 7922.49
+    },
+    {
+      "id": "C-05",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "SOTANO 1",
+      "resistencia": 56,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.02,
+      "peso": 0
+    },
+    {
+      "id": "C-05",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "1",
+      "resistencia": 56,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.75,
+      "peso": 0
+    },
+    {
+      "id": "C-05",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "2",
+      "resistencia": 56,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-05",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "3",
+      "resistencia": 56,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-05",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "4",
+      "resistencia": 49,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-05",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "5",
+      "resistencia": 49,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-05",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "6",
+      "resistencia": 49,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-05",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "7",
+      "resistencia": 49,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-05",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "8",
+      "resistencia": 42,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-05",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "9",
+      "resistencia": 42,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-05",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "10",
+      "resistencia": 42,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-05",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "11",
+      "resistencia": 42,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-05",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "12",
+      "resistencia": 35,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-05",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "13",
+      "resistencia": 35,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-05",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "14",
+      "resistencia": 35,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-05",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "15",
+      "resistencia": 35,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-05",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "16",
+      "resistencia": 28,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-05",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "17",
+      "resistencia": 28,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-05",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "18",
+      "resistencia": 28,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-05",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "19",
+      "resistencia": 28,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-05",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "20",
+      "resistencia": 28,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-05",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "21",
+      "resistencia": 28,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.17,
+      "peso": 0
+    },
+    {
+      "id": "C-05",
+      "seccion": "S=Ø70",
+      "cantidad": 1,
+      "piso": "22",
+      "resistencia": 28,
+      "plano": "1157-EST-2201-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.56,
+      "peso": 0
     },
     {
       "id": "C-06",
@@ -1361,9 +2461,249 @@
       "cantidad": 2,
       "piso": "SOTANO 2",
       "resistencia": 56,
-      "plano": "",
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
       "volumen": 2.2,
       "peso": 32095.2
+    },
+    {
+      "id": "C-06",
+      "seccion": "S=100x40",
+      "cantidad": 2,
+      "piso": "SOTANO 1",
+      "resistencia": 56,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.24,
+      "peso": 0
+    },
+    {
+      "id": "C-06",
+      "seccion": "S=100x40",
+      "cantidad": 2,
+      "piso": "1",
+      "resistencia": 56,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 3.64,
+      "peso": 0
+    },
+    {
+      "id": "C-06",
+      "seccion": "S=100x40",
+      "cantidad": 2,
+      "piso": "2",
+      "resistencia": 56,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.44,
+      "peso": 0
+    },
+    {
+      "id": "C-06",
+      "seccion": "S=100x40",
+      "cantidad": 2,
+      "piso": "3",
+      "resistencia": 56,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.44,
+      "peso": 0
+    },
+    {
+      "id": "C-06",
+      "seccion": "S=100x40",
+      "cantidad": 2,
+      "piso": "4",
+      "resistencia": 49,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.44,
+      "peso": 0
+    },
+    {
+      "id": "C-06",
+      "seccion": "S=100x40",
+      "cantidad": 2,
+      "piso": "5",
+      "resistencia": 49,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.44,
+      "peso": 0
+    },
+    {
+      "id": "C-06",
+      "seccion": "S=100x40",
+      "cantidad": 2,
+      "piso": "6",
+      "resistencia": 49,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.44,
+      "peso": 0
+    },
+    {
+      "id": "C-06",
+      "seccion": "S=100x40",
+      "cantidad": 2,
+      "piso": "7",
+      "resistencia": 49,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.44,
+      "peso": 0
+    },
+    {
+      "id": "C-06",
+      "seccion": "S=100x40",
+      "cantidad": 2,
+      "piso": "8",
+      "resistencia": 42,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.44,
+      "peso": 0
+    },
+    {
+      "id": "C-06",
+      "seccion": "S=100x40",
+      "cantidad": 2,
+      "piso": "9",
+      "resistencia": 42,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.44,
+      "peso": 0
+    },
+    {
+      "id": "C-06",
+      "seccion": "S=100x40",
+      "cantidad": 2,
+      "piso": "10",
+      "resistencia": 42,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.44,
+      "peso": 0
+    },
+    {
+      "id": "C-06",
+      "seccion": "S=100x40",
+      "cantidad": 2,
+      "piso": "11",
+      "resistencia": 42,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.44,
+      "peso": 0
+    },
+    {
+      "id": "C-06",
+      "seccion": "S=100x40",
+      "cantidad": 2,
+      "piso": "12",
+      "resistencia": 35,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.44,
+      "peso": 0
+    },
+    {
+      "id": "C-06",
+      "seccion": "S=100x40",
+      "cantidad": 2,
+      "piso": "13",
+      "resistencia": 35,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.44,
+      "peso": 0
+    },
+    {
+      "id": "C-06",
+      "seccion": "S=100x40",
+      "cantidad": 2,
+      "piso": "14",
+      "resistencia": 35,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.44,
+      "peso": 0
+    },
+    {
+      "id": "C-06",
+      "seccion": "S=100x40",
+      "cantidad": 2,
+      "piso": "15",
+      "resistencia": 35,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.44,
+      "peso": 0
+    },
+    {
+      "id": "C-06",
+      "seccion": "S=100x40",
+      "cantidad": 2,
+      "piso": "16",
+      "resistencia": 28,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.44,
+      "peso": 0
+    },
+    {
+      "id": "C-06",
+      "seccion": "S=100x40",
+      "cantidad": 2,
+      "piso": "17",
+      "resistencia": 28,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.44,
+      "peso": 0
+    },
+    {
+      "id": "C-06",
+      "seccion": "S=100x40",
+      "cantidad": 2,
+      "piso": "18",
+      "resistencia": 28,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.44,
+      "peso": 0
+    },
+    {
+      "id": "C-06",
+      "seccion": "S=100x40",
+      "cantidad": 2,
+      "piso": "19",
+      "resistencia": 28,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.44,
+      "peso": 0
+    },
+    {
+      "id": "C-06",
+      "seccion": "S=100x40",
+      "cantidad": 2,
+      "piso": "20",
+      "resistencia": 28,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.44,
+      "peso": 0
+    },
+    {
+      "id": "C-06",
+      "seccion": "S=100x40",
+      "cantidad": 2,
+      "piso": "21",
+      "resistencia": 28,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.44,
+      "peso": 0
+    },
+    {
+      "id": "C-06",
+      "seccion": "S=100x40",
+      "cantidad": 2,
+      "piso": "22",
+      "resistencia": 28,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.44,
+      "peso": 0
+    },
+    {
+      "id": "C-06",
+      "seccion": "S=100x40",
+      "cantidad": 2,
+      "piso": "23",
+      "resistencia": 28,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.44,
+      "peso": 0
     },
     {
       "id": "C-07",
@@ -1371,9 +2711,249 @@
       "cantidad": 1,
       "piso": "SOTANO 2",
       "resistencia": 56,
-      "plano": "",
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
       "volumen": 1.06,
       "peso": 15812.4
+    },
+    {
+      "id": "C-07",
+      "seccion": "S=100x40",
+      "cantidad": 1,
+      "piso": "SOTANO 1",
+      "resistencia": 56,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.06,
+      "peso": 0
+    },
+    {
+      "id": "C-07",
+      "seccion": "S=100x40",
+      "cantidad": 1,
+      "piso": "1",
+      "resistencia": 56,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.82,
+      "peso": 0
+    },
+    {
+      "id": "C-07",
+      "seccion": "S=100x40",
+      "cantidad": 1,
+      "piso": "2",
+      "resistencia": 56,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-07",
+      "seccion": "S=100x40",
+      "cantidad": 1,
+      "piso": "3",
+      "resistencia": 56,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-07",
+      "seccion": "S=100x40",
+      "cantidad": 1,
+      "piso": "4",
+      "resistencia": 49,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-07",
+      "seccion": "S=100x40",
+      "cantidad": 1,
+      "piso": "5",
+      "resistencia": 49,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-07",
+      "seccion": "S=100x40",
+      "cantidad": 1,
+      "piso": "6",
+      "resistencia": 49,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-07",
+      "seccion": "S=100x40",
+      "cantidad": 1,
+      "piso": "7",
+      "resistencia": 49,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-07",
+      "seccion": "S=100x40",
+      "cantidad": 1,
+      "piso": "8",
+      "resistencia": 42,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-07",
+      "seccion": "S=100x40",
+      "cantidad": 1,
+      "piso": "9",
+      "resistencia": 42,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-07",
+      "seccion": "S=100x40",
+      "cantidad": 1,
+      "piso": "10",
+      "resistencia": 42,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-07",
+      "seccion": "S=100x40",
+      "cantidad": 1,
+      "piso": "11",
+      "resistencia": 42,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-07",
+      "seccion": "S=100x40",
+      "cantidad": 1,
+      "piso": "12",
+      "resistencia": 35,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-07",
+      "seccion": "S=100x40",
+      "cantidad": 1,
+      "piso": "13",
+      "resistencia": 35,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-07",
+      "seccion": "S=100x40",
+      "cantidad": 1,
+      "piso": "14",
+      "resistencia": 35,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-07",
+      "seccion": "S=100x40",
+      "cantidad": 1,
+      "piso": "15",
+      "resistencia": 35,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-07",
+      "seccion": "S=100x40",
+      "cantidad": 1,
+      "piso": "16",
+      "resistencia": 28,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-07",
+      "seccion": "S=100x40",
+      "cantidad": 1,
+      "piso": "17",
+      "resistencia": 28,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-07",
+      "seccion": "S=100x40",
+      "cantidad": 1,
+      "piso": "18",
+      "resistencia": 28,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-07",
+      "seccion": "S=100x40",
+      "cantidad": 1,
+      "piso": "19",
+      "resistencia": 28,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-07",
+      "seccion": "S=100x40",
+      "cantidad": 1,
+      "piso": "20",
+      "resistencia": 28,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-07",
+      "seccion": "S=100x40",
+      "cantidad": 1,
+      "piso": "21",
+      "resistencia": 28,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-07",
+      "seccion": "S=100x40",
+      "cantidad": 1,
+      "piso": "22",
+      "resistencia": 28,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-07",
+      "seccion": "S=100x40",
+      "cantidad": 1,
+      "piso": "23",
+      "resistencia": 28,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
     },
     {
       "id": "C-08",
@@ -1381,9 +2961,59 @@
       "cantidad": 1,
       "piso": "SOTANO 2",
       "resistencia": 56,
-      "plano": "",
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
       "volumen": 0.66,
       "peso": 1683.2
+    },
+    {
+      "id": "C-08",
+      "seccion": "S=50x50",
+      "cantidad": 1,
+      "piso": "SOTANO 1",
+      "resistencia": 56,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 0.66,
+      "peso": 0
+    },
+    {
+      "id": "C-08",
+      "seccion": "S=50x50",
+      "cantidad": 1,
+      "piso": "1",
+      "resistencia": 56,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.14,
+      "peso": 0
+    },
+    {
+      "id": "C-09",
+      "seccion": "S=40x40",
+      "cantidad": 5,
+      "piso": "1",
+      "resistencia": 56,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 3.86,
+      "peso": 4706.76
+    },
+    {
+      "id": "C-09",
+      "seccion": "S=40x40",
+      "cantidad": 1,
+      "piso": "1",
+      "resistencia": 56,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 0.73,
+      "peso": 0
+    },
+    {
+      "id": "C-10",
+      "seccion": "S=40x40",
+      "cantidad": 3,
+      "piso": "1",
+      "resistencia": 56,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.33,
+      "peso": 1934.4
     },
     {
       "id": "C-11",
@@ -1391,9 +3021,19 @@
       "cantidad": 1,
       "piso": "SOTANO 2",
       "resistencia": 56,
-      "plano": "",
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
       "volumen": 0.74,
       "peso": 1015.24625
+    },
+    {
+      "id": "C-11",
+      "seccion": "S=40x70",
+      "cantidad": 1,
+      "piso": "SOTANO 1",
+      "resistencia": 56,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 0.74,
+      "peso": 0
     },
     {
       "id": "C-12",
@@ -1401,8 +3041,18 @@
       "cantidad": 19,
       "piso": "SOTANO 2",
       "resistencia": 56,
-      "plano": "",
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
       "volumen": 10.09,
+      "peso": 0
+    },
+    {
+      "id": "C-12",
+      "seccion": "S=40x50",
+      "cantidad": 19,
+      "piso": "SOTANO 1",
+      "resistencia": 56,
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 10.07,
       "peso": 0
     },
     {
@@ -1411,7 +3061,7 @@
       "cantidad": 1,
       "piso": "SOTANO 2",
       "resistencia": 56,
-      "plano": "",
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
       "volumen": 0.53,
       "peso": 506.385
     },
@@ -1421,149 +3071,9 @@
       "cantidad": 3,
       "piso": "SOTANO 2",
       "resistencia": 56,
-      "plano": "",
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
       "volumen": 1.59,
       "peso": 2600.36
-    },
-    {
-      "id": "C-20",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "SOTANO 2",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 1.13,
-      "peso": 8386.31
-    },
-    {
-      "id": "C-21",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "SOTANO 2",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 1.13,
-      "peso": 13641.4
-    },
-    {
-      "id": "C-23",
-      "seccion": "S=50x100",
-      "cantidad": 1,
-      "piso": "SOTANO 2",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 1.38,
-      "peso": 1307.72
-    },
-    {
-      "id": "C-24",
-      "seccion": "S=50x215",
-      "cantidad": 1,
-      "piso": "SOTANO 2",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 2.96,
-      "peso": 2814.39
-    },
-    {
-      "id": "C-01",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "SOTANO 1",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 1.14,
-      "peso": 0
-    },
-    {
-      "id": "C-02",
-      "seccion": "S=70x100",
-      "cantidad": 1,
-      "piso": "SOTANO 1",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 2.07,
-      "peso": 0
-    },
-    {
-      "id": "C-03",
-      "seccion": "S=40x100",
-      "cantidad": 1,
-      "piso": "SOTANO 1",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 1.06,
-      "peso": 0
-    },
-    {
-      "id": "C-04",
-      "seccion": "S=40x100",
-      "cantidad": 3,
-      "piso": "SOTANO 1",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 3.18,
-      "peso": 0
-    },
-    {
-      "id": "C-05",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "SOTANO 1",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 1.02,
-      "peso": 0
-    },
-    {
-      "id": "C-06",
-      "seccion": "S=100x40",
-      "cantidad": 2,
-      "piso": "SOTANO 1",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 2.24,
-      "peso": 0
-    },
-    {
-      "id": "C-07",
-      "seccion": "S=100x40",
-      "cantidad": 1,
-      "piso": "SOTANO 1",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 1.06,
-      "peso": 0
-    },
-    {
-      "id": "C-08",
-      "seccion": "S=50x50",
-      "cantidad": 1,
-      "piso": "SOTANO 1",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 0.66,
-      "peso": 0
-    },
-    {
-      "id": "C-11",
-      "seccion": "S=40x70",
-      "cantidad": 1,
-      "piso": "SOTANO 1",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 0.74,
-      "peso": 0
-    },
-    {
-      "id": "C-12",
-      "seccion": "S=40x50",
-      "cantidad": 19,
-      "piso": "SOTANO 1",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 10.07,
-      "peso": 0
     },
     {
       "id": "C-13",
@@ -1571,1938 +3081,8 @@
       "cantidad": 3,
       "piso": "SOTANO 1",
       "resistencia": 56,
-      "plano": "",
+      "plano": "1157-EST-2202-PD-P1-DESPICES DE COLUMNAS",
       "volumen": 1.59,
-      "peso": 0
-    },
-    {
-      "id": "C-20",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "SOTANO 1",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-21",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "SOTANO 1",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-23",
-      "seccion": "S=50x100",
-      "cantidad": 1,
-      "piso": "SOTANO 1",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 1.33,
-      "peso": 0
-    },
-    {
-      "id": "C-24",
-      "seccion": "S=50x215",
-      "cantidad": 1,
-      "piso": "SOTANO 1",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 2.85,
-      "peso": 0
-    },
-    {
-      "id": "C-04",
-      "seccion": "S=40x100",
-      "cantidad": 2,
-      "piso": "1",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 3.88,
-      "peso": 0
-    },
-    {
-      "id": "C-09",
-      "seccion": "S=40x40",
-      "cantidad": 5,
-      "piso": "1",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 3.86,
-      "peso": 4706.76
-    },
-    {
-      "id": "C-10",
-      "seccion": "S=40x40",
-      "cantidad": 3,
-      "piso": "1",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 2.33,
-      "peso": 1934.4
-    },
-    {
-      "id": "C-01",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "1",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 1.75,
-      "peso": 0
-    },
-    {
-      "id": "C-02",
-      "seccion": "S=70x100",
-      "cantidad": 1,
-      "piso": "1",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 3.19,
-      "peso": 0
-    },
-    {
-      "id": "C-03",
-      "seccion": "S=40x100",
-      "cantidad": 1,
-      "piso": "1",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 1.82,
-      "peso": 0
-    },
-    {
-      "id": "C-04",
-      "seccion": "S=40x100",
-      "cantidad": 1,
-      "piso": "1",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 1.82,
-      "peso": 0
-    },
-    {
-      "id": "C-05",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "1",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 1.75,
-      "peso": 0
-    },
-    {
-      "id": "C-06",
-      "seccion": "S=100x40",
-      "cantidad": 2,
-      "piso": "1",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 3.64,
-      "peso": 0
-    },
-    {
-      "id": "C-07",
-      "seccion": "S=100x40",
-      "cantidad": 1,
-      "piso": "1",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 1.82,
-      "peso": 0
-    },
-    {
-      "id": "C-08",
-      "seccion": "S=50x50",
-      "cantidad": 1,
-      "piso": "1",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 1.14,
-      "peso": 0
-    },
-    {
-      "id": "C-09",
-      "seccion": "S=40x40",
-      "cantidad": 1,
-      "piso": "1",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 0.73,
-      "peso": 0
-    },
-    {
-      "id": "C-20",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "1",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 1.88,
-      "peso": 0
-    },
-    {
-      "id": "C-21",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "1",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 1.88,
-      "peso": 0
-    },
-    {
-      "id": "C-01",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "2",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-02",
-      "seccion": "S=70x100",
-      "cantidad": 1,
-      "piso": "2",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 2.14,
-      "peso": 0
-    },
-    {
-      "id": "C-03",
-      "seccion": "S=40x100",
-      "cantidad": 1,
-      "piso": "2",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-04",
-      "seccion": "S=40x100",
-      "cantidad": 3,
-      "piso": "2",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 3.66,
-      "peso": 0
-    },
-    {
-      "id": "C-05",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "2",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-06",
-      "seccion": "S=100x40",
-      "cantidad": 2,
-      "piso": "2",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 2.44,
-      "peso": 0
-    },
-    {
-      "id": "C-07",
-      "seccion": "S=100x40",
-      "cantidad": 1,
-      "piso": "2",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-20",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "2",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-21",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "2",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-01",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "3",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-02",
-      "seccion": "S=70x100",
-      "cantidad": 1,
-      "piso": "3",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 2.14,
-      "peso": 0
-    },
-    {
-      "id": "C-03",
-      "seccion": "S=40x100",
-      "cantidad": 1,
-      "piso": "3",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-04",
-      "seccion": "S=40x100",
-      "cantidad": 3,
-      "piso": "3",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 3.66,
-      "peso": 0
-    },
-    {
-      "id": "C-05",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "3",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-06",
-      "seccion": "S=100x40",
-      "cantidad": 2,
-      "piso": "3",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 2.44,
-      "peso": 0
-    },
-    {
-      "id": "C-07",
-      "seccion": "S=100x40",
-      "cantidad": 1,
-      "piso": "3",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-20",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "3",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-21",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "3",
-      "resistencia": 56,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-01",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "4",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-02",
-      "seccion": "S=70x100",
-      "cantidad": 1,
-      "piso": "4",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 2.14,
-      "peso": 0
-    },
-    {
-      "id": "C-03",
-      "seccion": "S=40x100",
-      "cantidad": 1,
-      "piso": "4",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-04",
-      "seccion": "S=40x100",
-      "cantidad": 3,
-      "piso": "4",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 3.66,
-      "peso": 0
-    },
-    {
-      "id": "C-05",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "4",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-06",
-      "seccion": "S=100x40",
-      "cantidad": 2,
-      "piso": "4",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 2.44,
-      "peso": 0
-    },
-    {
-      "id": "C-07",
-      "seccion": "S=100x40",
-      "cantidad": 1,
-      "piso": "4",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-20",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "4",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-21",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "4",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-01",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "5",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-02",
-      "seccion": "S=70x100",
-      "cantidad": 1,
-      "piso": "5",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 2.14,
-      "peso": 0
-    },
-    {
-      "id": "C-03",
-      "seccion": "S=40x100",
-      "cantidad": 1,
-      "piso": "5",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-04",
-      "seccion": "S=40x100",
-      "cantidad": 3,
-      "piso": "5",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 3.66,
-      "peso": 0
-    },
-    {
-      "id": "C-05",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "5",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-06",
-      "seccion": "S=100x40",
-      "cantidad": 2,
-      "piso": "5",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 2.44,
-      "peso": 0
-    },
-    {
-      "id": "C-07",
-      "seccion": "S=100x40",
-      "cantidad": 1,
-      "piso": "5",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-20",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "5",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-21",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "5",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-01",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "6",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-02",
-      "seccion": "S=70x100",
-      "cantidad": 1,
-      "piso": "6",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 2.14,
-      "peso": 0
-    },
-    {
-      "id": "C-03",
-      "seccion": "S=40x100",
-      "cantidad": 1,
-      "piso": "6",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-04",
-      "seccion": "S=40x100",
-      "cantidad": 3,
-      "piso": "6",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 3.66,
-      "peso": 0
-    },
-    {
-      "id": "C-05",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "6",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-06",
-      "seccion": "S=100x40",
-      "cantidad": 2,
-      "piso": "6",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 2.44,
-      "peso": 0
-    },
-    {
-      "id": "C-07",
-      "seccion": "S=100x40",
-      "cantidad": 1,
-      "piso": "6",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-20",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "6",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-21",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "6",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-01",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "7",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-02",
-      "seccion": "S=70x100",
-      "cantidad": 1,
-      "piso": "7",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 2.14,
-      "peso": 0
-    },
-    {
-      "id": "C-03",
-      "seccion": "S=40x100",
-      "cantidad": 1,
-      "piso": "7",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-04",
-      "seccion": "S=40x100",
-      "cantidad": 3,
-      "piso": "7",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 3.66,
-      "peso": 0
-    },
-    {
-      "id": "C-05",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "7",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-06",
-      "seccion": "S=100x40",
-      "cantidad": 2,
-      "piso": "7",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 2.44,
-      "peso": 0
-    },
-    {
-      "id": "C-07",
-      "seccion": "S=100x40",
-      "cantidad": 1,
-      "piso": "7",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-20",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "7",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-21",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "7",
-      "resistencia": 49,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-01",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "8",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-02",
-      "seccion": "S=70x100",
-      "cantidad": 1,
-      "piso": "8",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 2.14,
-      "peso": 0
-    },
-    {
-      "id": "C-03",
-      "seccion": "S=40x100",
-      "cantidad": 1,
-      "piso": "8",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-04",
-      "seccion": "S=40x100",
-      "cantidad": 3,
-      "piso": "8",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 3.66,
-      "peso": 0
-    },
-    {
-      "id": "C-05",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "8",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-06",
-      "seccion": "S=100x40",
-      "cantidad": 2,
-      "piso": "8",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 2.44,
-      "peso": 0
-    },
-    {
-      "id": "C-07",
-      "seccion": "S=100x40",
-      "cantidad": 1,
-      "piso": "8",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-20",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "8",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-21",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "8",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-01",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "9",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-02",
-      "seccion": "S=70x100",
-      "cantidad": 1,
-      "piso": "9",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 2.14,
-      "peso": 0
-    },
-    {
-      "id": "C-03",
-      "seccion": "S=40x100",
-      "cantidad": 1,
-      "piso": "9",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-04",
-      "seccion": "S=40x100",
-      "cantidad": 3,
-      "piso": "9",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 3.66,
-      "peso": 0
-    },
-    {
-      "id": "C-05",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "9",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-06",
-      "seccion": "S=100x40",
-      "cantidad": 2,
-      "piso": "9",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 2.44,
-      "peso": 0
-    },
-    {
-      "id": "C-07",
-      "seccion": "S=100x40",
-      "cantidad": 1,
-      "piso": "9",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-20",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "9",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-21",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "9",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-01",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "10",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-02",
-      "seccion": "S=70x100",
-      "cantidad": 1,
-      "piso": "10",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 2.14,
-      "peso": 0
-    },
-    {
-      "id": "C-03",
-      "seccion": "S=40x100",
-      "cantidad": 1,
-      "piso": "10",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-04",
-      "seccion": "S=40x100",
-      "cantidad": 3,
-      "piso": "10",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 3.66,
-      "peso": 0
-    },
-    {
-      "id": "C-05",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "10",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-06",
-      "seccion": "S=100x40",
-      "cantidad": 2,
-      "piso": "10",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 2.44,
-      "peso": 0
-    },
-    {
-      "id": "C-07",
-      "seccion": "S=100x40",
-      "cantidad": 1,
-      "piso": "10",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-20",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "10",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-21",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "10",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-01",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "11",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-02",
-      "seccion": "S=70x100",
-      "cantidad": 1,
-      "piso": "11",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 2.14,
-      "peso": 0
-    },
-    {
-      "id": "C-03",
-      "seccion": "S=40x100",
-      "cantidad": 1,
-      "piso": "11",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-04",
-      "seccion": "S=40x100",
-      "cantidad": 3,
-      "piso": "11",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 3.66,
-      "peso": 0
-    },
-    {
-      "id": "C-05",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "11",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-06",
-      "seccion": "S=100x40",
-      "cantidad": 2,
-      "piso": "11",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 2.44,
-      "peso": 0
-    },
-    {
-      "id": "C-07",
-      "seccion": "S=100x40",
-      "cantidad": 1,
-      "piso": "11",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-20",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "11",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-21",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "11",
-      "resistencia": 42,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-01",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "12",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-02",
-      "seccion": "S=70x100",
-      "cantidad": 1,
-      "piso": "12",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 2.14,
-      "peso": 0
-    },
-    {
-      "id": "C-03",
-      "seccion": "S=40x100",
-      "cantidad": 1,
-      "piso": "12",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-04",
-      "seccion": "S=40x100",
-      "cantidad": 3,
-      "piso": "12",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 3.66,
-      "peso": 0
-    },
-    {
-      "id": "C-05",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "12",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-06",
-      "seccion": "S=100x40",
-      "cantidad": 2,
-      "piso": "12",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 2.44,
-      "peso": 0
-    },
-    {
-      "id": "C-07",
-      "seccion": "S=100x40",
-      "cantidad": 1,
-      "piso": "12",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-20",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "12",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-21",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "12",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-01",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "13",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-02",
-      "seccion": "S=70x100",
-      "cantidad": 1,
-      "piso": "13",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 2.14,
-      "peso": 0
-    },
-    {
-      "id": "C-03",
-      "seccion": "S=40x100",
-      "cantidad": 1,
-      "piso": "13",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-04",
-      "seccion": "S=40x100",
-      "cantidad": 3,
-      "piso": "13",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 3.66,
-      "peso": 0
-    },
-    {
-      "id": "C-05",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "13",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-06",
-      "seccion": "S=100x40",
-      "cantidad": 2,
-      "piso": "13",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 2.44,
-      "peso": 0
-    },
-    {
-      "id": "C-07",
-      "seccion": "S=100x40",
-      "cantidad": 1,
-      "piso": "13",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-20",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "13",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-21",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "13",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-01",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "14",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-02",
-      "seccion": "S=70x100",
-      "cantidad": 1,
-      "piso": "14",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 2.14,
-      "peso": 0
-    },
-    {
-      "id": "C-03",
-      "seccion": "S=40x100",
-      "cantidad": 1,
-      "piso": "14",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-04",
-      "seccion": "S=40x100",
-      "cantidad": 3,
-      "piso": "14",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 3.66,
-      "peso": 0
-    },
-    {
-      "id": "C-05",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "14",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-06",
-      "seccion": "S=100x40",
-      "cantidad": 2,
-      "piso": "14",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 2.44,
-      "peso": 0
-    },
-    {
-      "id": "C-07",
-      "seccion": "S=100x40",
-      "cantidad": 1,
-      "piso": "14",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-20",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "14",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-21",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "14",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-01",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "15",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-02",
-      "seccion": "S=70x100",
-      "cantidad": 1,
-      "piso": "15",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 2.14,
-      "peso": 0
-    },
-    {
-      "id": "C-03",
-      "seccion": "S=40x100",
-      "cantidad": 1,
-      "piso": "15",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-04",
-      "seccion": "S=40x100",
-      "cantidad": 3,
-      "piso": "15",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 3.66,
-      "peso": 0
-    },
-    {
-      "id": "C-05",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "15",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-06",
-      "seccion": "S=100x40",
-      "cantidad": 2,
-      "piso": "15",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 2.44,
-      "peso": 0
-    },
-    {
-      "id": "C-07",
-      "seccion": "S=100x40",
-      "cantidad": 1,
-      "piso": "15",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-20",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "15",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-21",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "15",
-      "resistencia": 35,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-01",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "16",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-02",
-      "seccion": "S=70x100",
-      "cantidad": 1,
-      "piso": "16",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 2.14,
-      "peso": 0
-    },
-    {
-      "id": "C-03",
-      "seccion": "S=40x100",
-      "cantidad": 1,
-      "piso": "16",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-04",
-      "seccion": "S=40x100",
-      "cantidad": 3,
-      "piso": "16",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 3.66,
-      "peso": 0
-    },
-    {
-      "id": "C-05",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "16",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-06",
-      "seccion": "S=100x40",
-      "cantidad": 2,
-      "piso": "16",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 2.44,
-      "peso": 0
-    },
-    {
-      "id": "C-07",
-      "seccion": "S=100x40",
-      "cantidad": 1,
-      "piso": "16",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-20",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "16",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-21",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "16",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-01",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "17",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-02",
-      "seccion": "S=70x100",
-      "cantidad": 1,
-      "piso": "17",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 2.14,
-      "peso": 0
-    },
-    {
-      "id": "C-03",
-      "seccion": "S=40x100",
-      "cantidad": 1,
-      "piso": "17",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-04",
-      "seccion": "S=40x100",
-      "cantidad": 3,
-      "piso": "17",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 3.66,
-      "peso": 0
-    },
-    {
-      "id": "C-05",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "17",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-06",
-      "seccion": "S=100x40",
-      "cantidad": 2,
-      "piso": "17",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 2.44,
-      "peso": 0
-    },
-    {
-      "id": "C-07",
-      "seccion": "S=100x40",
-      "cantidad": 1,
-      "piso": "17",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-20",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "17",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-21",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "17",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-01",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "18",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-02",
-      "seccion": "S=70x100",
-      "cantidad": 1,
-      "piso": "18",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 2.14,
-      "peso": 0
-    },
-    {
-      "id": "C-03",
-      "seccion": "S=40x100",
-      "cantidad": 1,
-      "piso": "18",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-04",
-      "seccion": "S=40x100",
-      "cantidad": 3,
-      "piso": "18",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 3.66,
-      "peso": 0
-    },
-    {
-      "id": "C-05",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "18",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-06",
-      "seccion": "S=100x40",
-      "cantidad": 2,
-      "piso": "18",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 2.44,
-      "peso": 0
-    },
-    {
-      "id": "C-07",
-      "seccion": "S=100x40",
-      "cantidad": 1,
-      "piso": "18",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-20",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "18",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-21",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "18",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-01",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "19",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 2.56,
-      "peso": 0
-    },
-    {
-      "id": "C-02",
-      "seccion": "S=70x100",
-      "cantidad": 1,
-      "piso": "19",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 2.14,
-      "peso": 0
-    },
-    {
-      "id": "C-03",
-      "seccion": "S=40x100",
-      "cantidad": 1,
-      "piso": "19",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-04",
-      "seccion": "S=40x100",
-      "cantidad": 3,
-      "piso": "19",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 3.66,
-      "peso": 0
-    },
-    {
-      "id": "C-05",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "19",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-06",
-      "seccion": "S=100x40",
-      "cantidad": 2,
-      "piso": "19",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 2.44,
-      "peso": 0
-    },
-    {
-      "id": "C-07",
-      "seccion": "S=100x40",
-      "cantidad": 1,
-      "piso": "19",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-20",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "19",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-21",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "19",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-02",
-      "seccion": "S=70x100",
-      "cantidad": 1,
-      "piso": "20",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 2.14,
-      "peso": 0
-    },
-    {
-      "id": "C-03",
-      "seccion": "S=40x100",
-      "cantidad": 1,
-      "piso": "20",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-04",
-      "seccion": "S=40x100",
-      "cantidad": 3,
-      "piso": "20",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 3.66,
-      "peso": 0
-    },
-    {
-      "id": "C-05",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "20",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-06",
-      "seccion": "S=100x40",
-      "cantidad": 2,
-      "piso": "20",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 2.44,
-      "peso": 0
-    },
-    {
-      "id": "C-07",
-      "seccion": "S=100x40",
-      "cantidad": 1,
-      "piso": "20",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-20",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "20",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-21",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "20",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-03",
-      "seccion": "S=40x100",
-      "cantidad": 1,
-      "piso": "21",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-04",
-      "seccion": "S=40x100",
-      "cantidad": 3,
-      "piso": "21",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 3.66,
-      "peso": 0
-    },
-    {
-      "id": "C-05",
-      "seccion": "S=Ø70",
-      "cantidad": 1,
-      "piso": "21",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.17,
-      "peso": 0
-    },
-    {
-      "id": "C-06",
-      "seccion": "S=100x40",
-      "cantidad": 2,
-      "piso": "21",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 2.44,
-      "peso": 0
-    },
-    {
-      "id": "C-07",
-      "seccion": "S=100x40",
-      "cantidad": 1,
-      "piso": "21",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.22,
       "peso": 0
     },
     {
@@ -3511,8 +3091,18 @@
       "cantidad": 1,
       "piso": "21",
       "resistencia": 28,
-      "plano": "",
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
       "volumen": 0.37,
+      "peso": 201.6
+    },
+    {
+      "id": "C-15",
+      "seccion": "S=30x30",
+      "cantidad": 1,
+      "piso": "22",
+      "resistencia": 28,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 0.25,
       "peso": 201.6
     },
     {
@@ -3521,7 +3111,37 @@
       "cantidad": 4,
       "piso": "21",
       "resistencia": 28,
-      "plano": "",
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.46,
+      "peso": 1071.8
+    },
+    {
+      "id": "C-17",
+      "seccion": "<varies>",
+      "cantidad": 8,
+      "piso": "23",
+      "resistencia": 28,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.93,
+      "peso": 2143.6
+    },
+    {
+      "id": "C-18",
+      "seccion": "<varies>",
+      "cantidad": 4,
+      "piso": "24",
+      "resistencia": 28,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.46,
+      "peso": 1071.8
+    },
+    {
+      "id": "C-19",
+      "seccion": "<varies>",
+      "cantidad": 4,
+      "piso": "25",
+      "resistencia": 28,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
       "volumen": 1.46,
       "peso": 1071.8
     },
@@ -3529,9 +3149,459 @@
       "id": "C-20",
       "seccion": "S=75x55",
       "cantidad": 1,
+      "piso": "SOTANO 2",
+      "resistencia": 56,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.13,
+      "peso": 8386.31
+    },
+    {
+      "id": "C-20",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "SOTANO 1",
+      "resistencia": 56,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-20",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "1",
+      "resistencia": 56,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.88,
+      "peso": 0
+    },
+    {
+      "id": "C-20",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "2",
+      "resistencia": 56,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-20",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "3",
+      "resistencia": 56,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-20",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "4",
+      "resistencia": 49,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-20",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "5",
+      "resistencia": 49,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-20",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "6",
+      "resistencia": 49,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-20",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "7",
+      "resistencia": 49,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-20",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "8",
+      "resistencia": 42,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-20",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "9",
+      "resistencia": 42,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-20",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "10",
+      "resistencia": 42,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-20",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "11",
+      "resistencia": 42,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-20",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "12",
+      "resistencia": 35,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-20",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "13",
+      "resistencia": 35,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-20",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "14",
+      "resistencia": 35,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-20",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "15",
+      "resistencia": 35,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-20",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "16",
+      "resistencia": 28,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-20",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "17",
+      "resistencia": 28,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-20",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "18",
+      "resistencia": 28,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-20",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "19",
+      "resistencia": 28,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-20",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "20",
+      "resistencia": 28,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-20",
+      "seccion": "S=75x55",
+      "cantidad": 1,
       "piso": "21",
       "resistencia": 28,
-      "plano": "",
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-20",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "22",
+      "resistencia": 28,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-21",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "SOTANO 2",
+      "resistencia": 56,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.13,
+      "peso": 13641.4
+    },
+    {
+      "id": "C-21",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "SOTANO 1",
+      "resistencia": 56,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.22,
+      "peso": 0
+    },
+    {
+      "id": "C-21",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "1",
+      "resistencia": 56,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.88,
+      "peso": 0
+    },
+    {
+      "id": "C-21",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "2",
+      "resistencia": 56,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-21",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "3",
+      "resistencia": 56,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-21",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "4",
+      "resistencia": 49,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-21",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "5",
+      "resistencia": 49,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-21",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "6",
+      "resistencia": 49,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-21",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "7",
+      "resistencia": 49,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-21",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "8",
+      "resistencia": 42,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-21",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "9",
+      "resistencia": 42,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-21",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "10",
+      "resistencia": 42,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-21",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "11",
+      "resistencia": 42,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-21",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "12",
+      "resistencia": 35,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-21",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "13",
+      "resistencia": 35,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-21",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "14",
+      "resistencia": 35,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-21",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "15",
+      "resistencia": 35,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-21",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "16",
+      "resistencia": 28,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-21",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "17",
+      "resistencia": 28,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-21",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "18",
+      "resistencia": 28,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-21",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "19",
+      "resistencia": 28,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-21",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "20",
+      "resistencia": 28,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
       "volumen": 1.26,
       "peso": 0
     },
@@ -3541,7 +3611,37 @@
       "cantidad": 1,
       "piso": "21",
       "resistencia": 28,
-      "plano": "",
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-21",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "22",
+      "resistencia": 28,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-21",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "23",
+      "resistencia": 28,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.26,
+      "peso": 0
+    },
+    {
+      "id": "C-21",
+      "seccion": "S=75x55",
+      "cantidad": 1,
+      "piso": "24",
+      "resistencia": 28,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
       "volumen": 1.26,
       "peso": 0
     },
@@ -3551,149 +3651,49 @@
       "cantidad": 1,
       "piso": "21",
       "resistencia": 28,
-      "plano": "",
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
       "volumen": 0.27,
       "peso": 216.28
     },
     {
-      "id": "C-04",
-      "seccion": "S=40x100",
-      "cantidad": 3,
-      "piso": "22",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 3.66,
-      "peso": 0
-    },
-    {
-      "id": "C-05",
-      "seccion": "S=Ø70",
+      "id": "C-23",
+      "seccion": "S=50x100",
       "cantidad": 1,
-      "piso": "22",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 2.56,
-      "peso": 0
+      "piso": "SOTANO 2",
+      "resistencia": 56,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.38,
+      "peso": 1307.72
     },
     {
-      "id": "C-06",
-      "seccion": "S=100x40",
-      "cantidad": 2,
-      "piso": "22",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 2.44,
-      "peso": 0
-    },
-    {
-      "id": "C-07",
-      "seccion": "S=100x40",
+      "id": "C-23",
+      "seccion": "S=50x100",
       "cantidad": 1,
-      "piso": "22",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.22,
+      "piso": "SOTANO 1",
+      "resistencia": 56,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 1.33,
       "peso": 0
     },
     {
-      "id": "C-15",
-      "seccion": "S=30x30",
+      "id": "C-24",
+      "seccion": "S=50x215",
       "cantidad": 1,
-      "piso": "22",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 0.25,
-      "peso": 201.6
+      "piso": "SOTANO 2",
+      "resistencia": 56,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.96,
+      "peso": 2814.39
     },
     {
-      "id": "C-20",
-      "seccion": "S=75x55",
+      "id": "C-24",
+      "seccion": "S=50x215",
       "cantidad": 1,
-      "piso": "22",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.26,
+      "piso": "SOTANO 1",
+      "resistencia": 56,
+      "plano": "1157-EST-2203-PD-P1-DESPICES DE COLUMNAS",
+      "volumen": 2.85,
       "peso": 0
-    },
-    {
-      "id": "C-21",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "22",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-06",
-      "seccion": "S=100x40",
-      "cantidad": 2,
-      "piso": "23",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 2.44,
-      "peso": 0
-    },
-    {
-      "id": "C-07",
-      "seccion": "S=100x40",
-      "cantidad": 1,
-      "piso": "23",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.22,
-      "peso": 0
-    },
-    {
-      "id": "C-17",
-      "seccion": "<varies>",
-      "cantidad": 8,
-      "piso": "23",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 2.93,
-      "peso": 2143.6
-    },
-    {
-      "id": "C-21",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "23",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-18",
-      "seccion": "<varies>",
-      "cantidad": 4,
-      "piso": "24",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.46,
-      "peso": 1071.8
-    },
-    {
-      "id": "C-21",
-      "seccion": "S=75x55",
-      "cantidad": 1,
-      "piso": "24",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.26,
-      "peso": 0
-    },
-    {
-      "id": "C-19",
-      "seccion": "<varies>",
-      "cantidad": 4,
-      "piso": "25",
-      "resistencia": 28,
-      "plano": "",
-      "volumen": 1.46,
-      "peso": 1071.8
     }
   ],
   "muros": [
@@ -3714,7 +3714,7 @@
       "id": "VC-001",
       "piso": "Cimentación",
       "seccion": "S=60x100",
-      "plano": "",
+      "plano": "1157-EST-2303-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 1,
       "resistencia": 42,
       "volumen": 32.8,
@@ -3724,7 +3724,7 @@
       "id": "VC-002",
       "piso": "Cimentación",
       "seccion": "S=60x100",
-      "plano": "",
+      "plano": "1157-EST-2303-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 1,
       "resistencia": 42,
       "volumen": 33.75,
@@ -3734,7 +3734,7 @@
       "id": "VC-003",
       "piso": "Cimentación",
       "seccion": "S=60x100",
-      "plano": "",
+      "plano": "1157-EST-2303-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 1,
       "resistencia": 42,
       "volumen": 2.84,
@@ -3744,7 +3744,7 @@
       "id": "VC-004",
       "piso": "Cimentación",
       "seccion": "S=140x140",
-      "plano": "",
+      "plano": "1157-EST-2303-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 2,
       "resistencia": 42,
       "volumen": 6.17,
@@ -3753,8 +3753,8 @@
     {
       "id": "VC-005",
       "piso": "Cimentación",
-      "seccion": "<varies>",
-      "plano": "",
+      "seccion": "S=85x140, 60x140",
+      "plano": "1157-EST-2303-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 10,
       "resistencia": 42,
       "volumen": 34.46,
@@ -3763,8 +3763,8 @@
     {
       "id": "VC-006",
       "piso": "Cimentación",
-      "seccion": "<varies>",
-      "plano": "",
+      "seccion": "S=60x140, 130x140, 105x280, 155x280, 110x280, 120x280",
+      "plano": "1157-EST-2303-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 14,
       "resistencia": 42,
       "volumen": 89.77,
@@ -3773,8 +3773,8 @@
     {
       "id": "VC-007",
       "piso": "Cimentación",
-      "seccion": "<varies>",
-      "plano": "",
+      "seccion": "S=60x140, 130x140, 105x280, 110x280, 120x280, 100x150",
+      "plano": "1157-EST-2303-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 14,
       "resistencia": 42,
       "volumen": 82.72,
@@ -3784,7 +3784,7 @@
       "id": "VC-008",
       "piso": "Cimentación",
       "seccion": "S=60x140",
-      "plano": "",
+      "plano": "1157-EST-2304-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 7,
       "resistencia": 42,
       "volumen": 51.17,
@@ -3794,7 +3794,7 @@
       "id": "VC-009",
       "piso": "Cimentación",
       "seccion": "S=60x140",
-      "plano": "",
+      "plano": "1157-EST-2304-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 1,
       "resistencia": 42,
       "volumen": 1.39,
@@ -3804,7 +3804,7 @@
       "id": "VC-010",
       "piso": "Cimentación",
       "seccion": "S=60x140",
-      "plano": "",
+      "plano": "1157-EST-2304-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 2,
       "resistencia": 42,
       "volumen": 2.69,
@@ -3814,7 +3814,7 @@
       "id": "VC-011",
       "piso": "Cimentación",
       "seccion": "S=140x140",
-      "plano": "",
+      "plano": "1157-EST-2304-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 1,
       "resistencia": 42,
       "volumen": 3.14,
@@ -3823,8 +3823,8 @@
     {
       "id": "VC-012",
       "piso": "Cimentación",
-      "seccion": "<varies>",
-      "plano": "",
+      "seccion": "S=80x100, 60x100, 90x100",
+      "plano": "1157-EST-2304-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 3,
       "resistencia": 42,
       "volumen": 33.79,
@@ -3833,8 +3833,8 @@
     {
       "id": "VC-013",
       "piso": "Cimentación",
-      "seccion": "<varies>",
-      "plano": "",
+      "seccion": "S=60x100, 90x100",
+      "plano": "1157-EST-2304-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 3,
       "resistencia": 42,
       "volumen": 29.28,
@@ -3844,7 +3844,7 @@
       "id": "VC-014",
       "piso": "Cimentación",
       "seccion": "S=60x100",
-      "plano": "",
+      "plano": "1157-EST-2304-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 1,
       "resistencia": 42,
       "volumen": 24.64,
@@ -3853,8 +3853,8 @@
     {
       "id": "VC-015",
       "piso": "Cimentación",
-      "seccion": "<varies>",
-      "plano": "",
+      "seccion": "S=60x100, 90x100",
+      "plano": "1157-EST-2304-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 3,
       "resistencia": 42,
       "volumen": 18.88,
@@ -3863,8 +3863,8 @@
     {
       "id": "VC-016",
       "piso": "Cimentación",
-      "seccion": "<varies>",
-      "plano": "",
+      "seccion": "S=60x100, 90x100",
+      "plano": "1157-EST-2304-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 3,
       "resistencia": 42,
       "volumen": 16.8,
@@ -3873,8 +3873,8 @@
     {
       "id": "VC-017",
       "piso": "Cimentación",
-      "seccion": "<varies>",
-      "plano": "",
+      "seccion": "S=60x100, 60x140, 110x150",
+      "plano": "1157-EST-2304-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 7,
       "resistencia": 42,
       "volumen": 24.65,
@@ -3883,8 +3883,8 @@
     {
       "id": "VC-018",
       "piso": "Cimentación",
-      "seccion": "S=60x140",
-      "plano": "",
+      "seccion": "S=60x140, 100x150",
+      "plano": "1157-EST-2304-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 1,
       "resistencia": 42,
       "volumen": 3.37,
@@ -3894,7 +3894,7 @@
       "id": "VC-019",
       "piso": "Cimentación",
       "seccion": "S=60x140",
-      "plano": "",
+      "plano": "1157-EST-2304-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 1,
       "resistencia": 42,
       "volumen": 6.8,
@@ -3904,7 +3904,7 @@
       "id": "VC-020",
       "piso": "Cimentación",
       "seccion": "S=60x100",
-      "plano": "",
+      "plano": "1157-EST-2304-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 1,
       "resistencia": 42,
       "volumen": 2.43,
@@ -3913,8 +3913,8 @@
     {
       "id": "VC-021",
       "piso": "Cimentación",
-      "seccion": "<varies>",
-      "plano": "",
+      "seccion": "S=60x140, 60x100",
+      "plano": "1157-EST-2305-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 3,
       "resistencia": 42,
       "volumen": 8.78,
@@ -3924,7 +3924,7 @@
       "id": "VC-022",
       "piso": "Cimentación",
       "seccion": "S=110x280",
-      "plano": "",
+      "plano": "1157-EST-2305-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 1,
       "resistencia": 42,
       "volumen": 12.5,
@@ -3934,7 +3934,7 @@
       "id": "VC-023",
       "piso": "Cimentación",
       "seccion": "<varies>",
-      "plano": "",
+      "plano": "1157-EST-2305-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 4,
       "resistencia": 42,
       "volumen": 25.82,
@@ -3944,7 +3944,7 @@
       "id": "VC-024",
       "piso": "Cimentación",
       "seccion": "S=60x140",
-      "plano": "",
+      "plano": "1157-EST-2305-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 2,
       "resistencia": 42,
       "volumen": 13.08,
@@ -3954,7 +3954,7 @@
       "id": "VC-025",
       "piso": "Cimentación",
       "seccion": "<varies>",
-      "plano": "",
+      "plano": "1157-EST-2305-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 7,
       "resistencia": 42,
       "volumen": 53.24,
@@ -3964,7 +3964,7 @@
       "id": "VC-026",
       "piso": "Cimentación",
       "seccion": "<varies>",
-      "plano": "",
+      "plano": "1157-EST-2305-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 5,
       "resistencia": 42,
       "volumen": 37.73,
@@ -3974,7 +3974,7 @@
       "id": "VC-027",
       "piso": "Cimentación",
       "seccion": "<varies>",
-      "plano": "",
+      "plano": "1157-EST-2305-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 6,
       "resistencia": 42,
       "volumen": 19.23,
@@ -3984,7 +3984,7 @@
       "id": "VC-028",
       "piso": "Cimentación",
       "seccion": "<varies>",
-      "plano": "",
+      "plano": "1157-EST-2305-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 3,
       "resistencia": 42,
       "volumen": 12.61,
@@ -3994,7 +3994,7 @@
       "id": "VC-029",
       "piso": "Cimentación",
       "seccion": "<varies>",
-      "plano": "",
+      "plano": "1157-EST-2306-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 5,
       "resistencia": 42,
       "volumen": 17.02,
@@ -4004,7 +4004,7 @@
       "id": "VC-030",
       "piso": "Cimentación",
       "seccion": "<varies>",
-      "plano": "",
+      "plano": "1157-EST-2306-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 6,
       "resistencia": 42,
       "volumen": 20.22,
@@ -4014,7 +4014,7 @@
       "id": "VC-031",
       "piso": "Cimentación",
       "seccion": "<varies>",
-      "plano": "",
+      "plano": "1157-EST-2303-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 5,
       "resistencia": 42,
       "volumen": 39.33,
@@ -4024,7 +4024,7 @@
       "id": "VC-032",
       "piso": "Cimentación",
       "seccion": "<varies>",
-      "plano": "",
+      "plano": "1157-EST-2303-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 6,
       "resistencia": 42,
       "volumen": 44.34,
@@ -4034,7 +4034,7 @@
       "id": "VC-033",
       "piso": "Cimentación",
       "seccion": "S=60x140",
-      "plano": "",
+      "plano": "1157-EST-2303-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 1,
       "resistencia": 42,
       "volumen": 6.91,
@@ -4044,7 +4044,7 @@
       "id": "VC-034",
       "piso": "Cimentación",
       "seccion": "S=130x280",
-      "plano": "",
+      "plano": "1157-EST-2303-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 1,
       "resistencia": 42,
       "volumen": 16.02,
@@ -4054,7 +4054,7 @@
       "id": "VC-035",
       "piso": "Cimentación",
       "seccion": "<varies>",
-      "plano": "",
+      "plano": "1157-EST-2303-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 3,
       "resistencia": 42,
       "volumen": 8.46,
@@ -4064,7 +4064,7 @@
       "id": "VC-036",
       "piso": "Cimentación",
       "seccion": "S=60x140",
-      "plano": "",
+      "plano": "1157-EST-2303-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 1,
       "resistencia": 42,
       "volumen": 7.16,
@@ -4074,7 +4074,7 @@
       "id": "VC-037",
       "piso": "Cimentación",
       "seccion": "<varies>",
-      "plano": "",
+      "plano": "1157-EST-2303-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 3,
       "resistencia": 42,
       "volumen": 11.01,
@@ -4084,7 +4084,7 @@
       "id": "VC-038",
       "piso": "Cimentación",
       "seccion": "S=60x140",
-      "plano": "",
+      "plano": "1157-EST-2303-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 1,
       "resistencia": 42,
       "volumen": 13.88,
@@ -4094,7 +4094,7 @@
       "id": "VC-039",
       "piso": "Cimentación",
       "seccion": "S=60x100",
-      "plano": "",
+      "plano": "1157-EST-2303-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 1,
       "resistencia": 42,
       "volumen": 3.16,
@@ -4104,7 +4104,7 @@
       "id": "VC-040",
       "piso": "Cimentación",
       "seccion": "S=60x100",
-      "plano": "",
+      "plano": "1157-EST-2303-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 1,
       "resistencia": 42,
       "volumen": 8.07,
@@ -4114,7 +4114,7 @@
       "id": "VC-041",
       "piso": "Cimentación",
       "seccion": "S=40x100",
-      "plano": "",
+      "plano": "1157-EST-2303-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 2,
       "resistencia": 42,
       "volumen": 2.91,
@@ -4124,7 +4124,7 @@
       "id": "VC-042",
       "piso": "Cimentación",
       "seccion": "S=60x140",
-      "plano": "",
+      "plano": "1157-EST-2303-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 2,
       "resistencia": 42,
       "volumen": 6.69,
@@ -4134,7 +4134,7 @@
       "id": "VC-043",
       "piso": "Cimentación",
       "seccion": "S=60x140",
-      "plano": "",
+      "plano": "1157-EST-2303-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 1,
       "resistencia": 42,
       "volumen": 3.7,
@@ -4144,7 +4144,7 @@
       "id": "VC-044",
       "piso": "Cimentación",
       "seccion": "S=180x140",
-      "plano": "",
+      "plano": "1157-EST-2303-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 1,
       "resistencia": 42,
       "volumen": 10.71,
@@ -4154,7 +4154,7 @@
       "id": "VC-045",
       "piso": "Cimentación",
       "seccion": "<varies>",
-      "plano": "",
+      "plano": "1157-EST-2303-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 4,
       "resistencia": 42,
       "volumen": 11.55,
@@ -4164,7 +4164,7 @@
       "id": "VC-046",
       "piso": "Cimentación",
       "seccion": "S=140x280",
-      "plano": "",
+      "plano": "1157-EST-2303-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 1,
       "resistencia": 42,
       "volumen": 17.25,
@@ -4174,7 +4174,7 @@
       "id": "VC-047",
       "piso": "Cimentación",
       "seccion": "S=60x100",
-      "plano": "",
+      "plano": "1157-EST-2303-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 1,
       "resistencia": 42,
       "volumen": 1.69,
@@ -4184,7 +4184,7 @@
       "id": "VC-048",
       "piso": "Cimentación",
       "seccion": "<varies>",
-      "plano": "",
+      "plano": "1157-EST-2303-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 2,
       "resistencia": 42,
       "volumen": 0.56,
@@ -4194,7 +4194,7 @@
       "id": "VC-049",
       "piso": "Cimentación",
       "seccion": "S=60x100",
-      "plano": "",
+      "plano": "1157-EST-2303-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 1,
       "resistencia": 42,
       "volumen": 2.68,
@@ -4204,7 +4204,7 @@
       "id": "VG-TQ1",
       "piso": "Cimentación",
       "seccion": "S=40x100",
-      "plano": "",
+      "plano": "1157-EST-2303-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 2,
       "resistencia": 42,
       "volumen": 2.34,
@@ -4214,7 +4214,7 @@
       "id": "VG-TQ2",
       "piso": "Cimentación",
       "seccion": "S=40x100",
-      "plano": "",
+      "plano": "1157-EST-2303-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 1,
       "resistencia": 42,
       "volumen": 0.95,
@@ -4224,7 +4224,7 @@
       "id": "VG-TQ3",
       "piso": "Cimentación",
       "seccion": "S=40x100",
-      "plano": "",
+      "plano": "1157-EST-2303-PD-P1-DESPIECE VIGAS CIM",
       "cantidad": 1,
       "resistencia": 42,
       "volumen": 0.4,
@@ -18408,7 +18408,7 @@
     },
     {
       "piso": "Piso 2",
-      "plano": "",
+      "plano": "1157-EST-2400-PP-P1-PLANTA PISO 2",
       "resistencia": 42,
       "area": 1093.67,
       "volumen": 70.03,
@@ -18416,7 +18416,7 @@
     },
     {
       "piso": "Piso 3",
-      "plano": "",
+      "plano": "1157-EST-2425-PP-P1-PLANTA PISO TIPO 1 (3,5,7 Y 9)",
       "resistencia": 42,
       "area": 809.33,
       "volumen": 52.01,
@@ -18424,7 +18424,7 @@
     },
     {
       "piso": "Piso 4",
-      "plano": "",
+      "plano": "1157-EST-2450-PP-P1-PLANTA PISO TIPO 2 (4,6,8 Y 10)",
       "resistencia": 42,
       "area": 815.17,
       "volumen": 52.33,
@@ -18432,7 +18432,7 @@
     },
     {
       "piso": "Piso 5",
-      "plano": "",
+      "plano": "1157-EST-2425-PP-P1-PLANTA PISO TIPO 1 (3,5,7 Y 9)",
       "resistencia": 35,
       "area": 809.33,
       "volumen": 52.01,
@@ -18440,7 +18440,7 @@
     },
     {
       "piso": "Piso 6",
-      "plano": "",
+      "plano": "1157-EST-2450-PP-P1-PLANTA PISO TIPO 2 (4,6,8 Y 10)",
       "resistencia": 35,
       "area": 815.17,
       "volumen": 52.33,
@@ -18448,7 +18448,7 @@
     },
     {
       "piso": "Piso 7",
-      "plano": "",
+      "plano": "1157-EST-2425-PP-P1-PLANTA PISO TIPO 1 (3,5,7 Y 9)",
       "resistencia": 35,
       "area": 809.33,
       "volumen": 52.01,
@@ -18456,7 +18456,7 @@
     },
     {
       "piso": "Piso 8",
-      "plano": "",
+      "plano": "1157-EST-2450-PP-P1-PLANTA PISO TIPO 2 (4,6,8 Y 10)",
       "resistencia": 35,
       "area": 815.17,
       "volumen": 52.33,
@@ -18464,7 +18464,7 @@
     },
     {
       "piso": "Piso 9",
-      "plano": "",
+      "plano": "1157-EST-2425-PP-P1-PLANTA PISO TIPO 1 (3,5,7 Y 9)",
       "resistencia": 32,
       "area": 809.33,
       "volumen": 52.01,
@@ -18472,7 +18472,7 @@
     },
     {
       "piso": "Piso 10",
-      "plano": "",
+      "plano": "1157-EST-2450-PP-P1-PLANTA PISO TIPO 2 (4,6,8 Y 10)",
       "resistencia": 32,
       "area": 815.17,
       "volumen": 52.33,
@@ -18480,7 +18480,7 @@
     },
     {
       "piso": "Piso 11",
-      "plano": "",
+      "plano": "1157-EST-2475-PP-P1-PLANTA PISO 11",
       "resistencia": 32,
       "area": 809.99,
       "volumen": 52.48,
@@ -18488,7 +18488,7 @@
     },
     {
       "piso": "Piso 12",
-      "plano": "",
+      "plano": "1157-EST-2500-PP-P1-PLANTA PISO 12 Y 14",
       "resistencia": 32,
       "area": 794.26,
       "volumen": 51.19,
@@ -18496,7 +18496,7 @@
     },
     {
       "piso": "Piso 13",
-      "plano": "",
+      "plano": "1157-EST-2525-PP-P1-PLANTA PISO 13 Y 15",
       "resistencia": 28,
       "area": 792.04,
       "volumen": 51.14,
@@ -18504,7 +18504,7 @@
     },
     {
       "piso": "Piso 14",
-      "plano": "",
+      "plano": "1157-EST-2500-PP-P1-PLANTA PISO 12 Y 14",
       "resistencia": 28,
       "area": 794.26,
       "volumen": 51.19,
@@ -18512,7 +18512,7 @@
     },
     {
       "piso": "Piso 15",
-      "plano": "",
+      "plano": "1157-EST-2525-PP-P1-PLANTA PISO 13 Y 15",
       "resistencia": 28,
       "area": 792.04,
       "volumen": 51.14,
@@ -18520,7 +18520,7 @@
     },
     {
       "piso": "Piso 16",
-      "plano": "",
+      "plano": "1157-EST-2550-PP-P1-PLANTA PISO 16",
       "resistencia": 28,
       "area": 803.8,
       "volumen": 51.48,
@@ -18528,7 +18528,7 @@
     },
     {
       "piso": "Piso 17",
-      "plano": "",
+      "plano": "1157-EST-2575-PP-P1-PLANTA PISO 17",
       "resistencia": 28,
       "area": 729.72,
       "volumen": 46.62,
@@ -18536,7 +18536,7 @@
     },
     {
       "piso": "Piso 18",
-      "plano": "",
+      "plano": "1157-EST-2600-PP-P1-PLANTA PISO 18",
       "resistencia": 28,
       "area": 725.69,
       "volumen": 46.6,
@@ -18544,7 +18544,7 @@
     },
     {
       "piso": "Piso 19",
-      "plano": "",
+      "plano": "1157-EST-2625-PP-P1-PLANTA PISO 19",
       "resistencia": 28,
       "area": 744.06,
       "volumen": 47.56,
@@ -18552,7 +18552,7 @@
     },
     {
       "piso": "Piso 20",
-      "plano": "",
+      "plano": "1157-EST-2650-PP-P1-PLANTA PISO 20",
       "resistencia": 28,
       "area": 708.74,
       "volumen": 46,
@@ -18560,7 +18560,7 @@
     },
     {
       "piso": "Piso 21",
-      "plano": "",
+      "plano": "1157-EST-2675-PP-P1-PLANTA PISO 21",
       "resistencia": 28,
       "area": 728.61,
       "volumen": 45.75,
@@ -18568,7 +18568,7 @@
     },
     {
       "piso": "Piso 22",
-      "plano": "",
+      "plano": "1157-EST-2700-PP-P1-PLANTA PISO 22",
       "resistencia": 28,
       "area": 592.8,
       "volumen": 36.21,
@@ -18576,7 +18576,7 @@
     },
     {
       "piso": "Piso 23",
-      "plano": "",
+      "plano": "1157-EST-2725-PP-P1-PLANTA PISO 23",
       "resistencia": 28,
       "area": 512.7,
       "volumen": 32.38,
@@ -18584,7 +18584,7 @@
     },
     {
       "piso": "Piso 24",
-      "plano": "",
+      "plano": "1157-EST-2750-PP-P1-PLANTA PISO 24",
       "resistencia": 28,
       "area": 240.73,
       "volumen": 14.95,
@@ -18592,7 +18592,7 @@
     },
     {
       "piso": "Piso 25",
-      "plano": "",
+      "plano": "1157-EST-2775-PP-P1-PLANTA PISO 25 Y CUBIERTA",
       "resistencia": 28,
       "area": 93.47,
       "volumen": 5.26,
@@ -18600,7 +18600,7 @@
     },
     {
       "piso": "Piso 26",
-      "plano": "",
+      "plano": "1157-EST-2775-PP-P1-PLANTA PISO 25 Y CUBIERTA",
       "resistencia": 28,
       "area": 10.72,
       "volumen": 1.29,
@@ -18613,7 +18613,7 @@
       "espesor": 0.3,
       "longitud": 197,
       "altura": 7.5,
-      "plano": "1157-EST-2220-PD-P1-DESPICES DE MUROS",
+      "plano": "1157-EST-2220-PD-P1-DESPIECE DE MUROS DE CONTENCIÓN",
       "resistencia": 35,
       "volumen": 313.79,
       "peso": 0
@@ -18623,7 +18623,7 @@
       "espesor": 0.3,
       "longitud": 9.3,
       "altura": 3.75,
-      "plano": "1157-EST-2220-PD-P1-DESPICES DE MUROS",
+      "plano": "1157-EST-2220-PD-P1-DESPIECE DE MUROS DE CONTENCIÓN",
       "resistencia": 35,
       "volumen": 7.43,
       "peso": 0
@@ -18633,31 +18633,13 @@
       "espesor": 0.3,
       "longitud": 21.5,
       "altura": 4.3,
-      "plano": "1157-EST-2220-PD-P1-DESPICES DE MUROS",
+      "plano": "1157-EST-2220-PD-P1-DESPIECE DE MUROS DE CONTENCIÓN",
       "resistencia": 35,
       "volumen": 17.16,
       "peso": 0
     }
   ],
   "capitulos": [
-    {
-      "capitulo": "",
-      "volumen": 0,
-      "peso": 0,
-      "area": 0,
-      "cuantiaVol": 0,
-      "cuantiaArea": 0,
-      "consumo": 0
-    },
-    {
-      "capitulo": "Capítulo",
-      "volumen": null,
-      "peso": null,
-      "area": null,
-      "cuantiaVol": null,
-      "cuantiaArea": null,
-      "consumo": null
-    },
     {
       "capitulo": "Pilotes",
       "volumen": 1994.9,
@@ -19348,7 +19330,6 @@
       "documento": "Traslapos y empalmes",
       "pdf": "Traslapos y empalmes.pdf"
     }
-    
   ],
   "observaciones": [
     {
