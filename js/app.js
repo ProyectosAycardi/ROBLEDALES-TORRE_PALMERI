@@ -18,6 +18,13 @@ fetch("data/datos.json")
 
     configurarBarraProgreso(data.info);
 
+    const carbono = data.info.carbono || 0;
+    const carbonoEl = document.getElementById("carbonoValor");
+
+    if (carbonoEl) {
+      carbonoEl.textContent = carbono.toLocaleString();
+    }
+
     // inicializar vista
     elementos = DATA.columnas || [];
     renderLista(elementos);

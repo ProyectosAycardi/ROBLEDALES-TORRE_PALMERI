@@ -1044,3 +1044,51 @@ body.login {
 td:last-child {
   background: #f0f7ff;
 }
+
+.carbono-widget {
+  position: absolute;
+  top: 110px; /* debajo del header */
+  right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10;
+}
+
+/* Círculo */
+.carbono-card {
+  border: 3px solid #6b8f3e;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #6b8f3e;
+  background: #fff;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+}
+
+.carbono-valor {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.carbono-unidad {
+  font-size: 11px;
+}
+
+.carbono-label {
+  font-size: 10px;
+  text-align: center;
+}
+
+/* Texto inferior */
+.carbono-info {
+  margin-top: 8px;
+  font-size: 11px;
+  text-align: center;
+  color: #4b5563;
+  max-width: 140px;
+}
