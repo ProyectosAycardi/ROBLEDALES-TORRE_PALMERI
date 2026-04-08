@@ -1092,3 +1092,26 @@ td:last-child {
   color: #4b5563;
   max-width: 140px;
 }
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+
+  .carbono-widget {
+    position: static; /* 👈 deja de flotar */
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .carbono-card {
+    width: 100px;
+    height: 100px;
+  }
+
+  .carbono-info {
+    font-size: 10px;
+    max-width: 120px;
+  }
+
+}
