@@ -186,7 +186,34 @@ function cargarLista() {
       `<option value="TODOS">Todos</option>`;
   }
 
-  // ===== AGREGAR ELEMENTOS =====
+  // ===== COLUMNAS Y MUROS (SIN REPETIR TIPOS) =====
+  if (tipo === "columnas" || tipo === "muros") {
+
+    const pisoSel = document.getElementById("selectPiso")?.value || "TOTAL";
+
+    //Si está en TOTAL → agrupar por ID
+    if (pisoSel === "TOTAL") {
+
+      const unicos = {};
+
+      elementos.forEach((el, i) => {
+        if (!unicos[el.id]) {
+          unicos[el.id] = i;
+        }
+      });
+
+      Object.entries(unicos).forEach(([id, index]) => {
+        const opt = document.createElement("option");
+        opt.value = index;
+        opt.textContent = id;
+        selectElemento.appendChild(opt);
+      });
+
+      return;
+    }
+  }
+
+  // ===== CASO NORMAL =====
   elementos.forEach((el, i) => {
     const nombre = el.id;
     const piso = el.piso ? ` (${el.piso})` : "";
