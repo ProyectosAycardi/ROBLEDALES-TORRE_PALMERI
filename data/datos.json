@@ -23735,154 +23735,60 @@
   ],
   "observaciones": [
     {
-      "categoria": "Categoría",
-      "elemento": "Elemento",
-      "descripcion": "Descripción",
-      "nivel": "Nivel"
+      "categoria": "COLUMNAS Y MUROS",
+      "elemento": "APANTALLAMIENTO",
+      "descripcion": "Se dispone dejar tuberias embebidas para apantallamiento dentro de algunas columnas y muros. Ver plano:\n- 1157-EST-2200-PP-P1-PLANTA LOC. DE MUR Y COL",
+      "nivel": "Todos los niveles",
+      "prioridad": "Alta"
     },
     {
-      "categoria": "Pilotes",
-      "elemento": "",
-      "descripcion": "",
-      "nivel": ""
+      "categoria": "COLUMNAS",
+      "elemento": "ARRANQUES",
+      "descripcion": "Se dispone una linea de columnas que nacen sobre la losa de piso 1 en eje G para soportar el borde de placa en piso 2.Se debe dejar los arranques embebidos. Ver plano:\n- 1157-EST-2375-PP-P1-PLANTA PISO 1",
+      "nivel": "Piso 1",
+      "prioridad": "Alta"
     },
     {
-      "categoria": "Muro pantalla",
-      "elemento": "",
-      "descripcion": "",
-      "nivel": ""
+      "categoria": "VOLADIZOS",
+      "elemento": "VIGAS Y MUROS",
+      "descripcion": "Como resultado de la geometría que requiere la conformación del acceso a sótano se presentan voladizos importantes entre los ejes 1-3 con A-B. Ver planos:\n- 1157-EST-2350-PP-P1-PLANTA SÓTANO 1\n- 1157-EST-2358-PD-P1-DETALLES  VOLADIZO SÓTANO 1\n- 1157-EST-2375-PP-P1-PLANTA PISO 1\nNOTAS:\n- NO  se puede retirar la formaleta de Sótano 1 y piso 1 hasta tanto se alcance el 100% de la resistencia de Piso 1\n- Los muros se funden monolíticos con las columnas C-23 y C-24",
+      "nivel": "Sotano 1 y Piso 1",
+      "prioridad": "Alta"
     },
     {
-      "categoria": "Losa cimentación",
-      "elemento": "",
-      "descripcion": "",
-      "nivel": ""
+      "categoria": "SOBREPLACAS",
+      "elemento": "MAMPOSTERÍA",
+      "descripcion": "Para alcanzar el nivel de Lobby en varias zonas se implementaron muretes en mampostería, anclados a la losa de piso 1, Ver planos:\n- 1157-EST-2375-PP-P1-PLANTA PISO 1\n- 1157-EST-2383-PD-P1-DESPIECE VIGAS P1",
+      "nivel": "Piso 1",
+      "prioridad": "Alta"
     },
     {
-      "categoria": "Vigas cimentación",
-      "elemento": "",
-      "descripcion": "",
-      "nivel": ""
+      "categoria": "TANQUES",
+      "elemento": "VIGAS Y MUROS",
+      "descripcion": "Los tanques en sótanos son de dos niveles. Se requieren vigas intermedias para los muros internos. Ver planos:\n- 1157-EST-2325-PD-P1-DESPIECE DE TANQUE 1",
+      "nivel": "Cimentación,  Sótano 1 y piso 1",
+      "prioridad": "Alta"
     },
     {
-      "categoria": "Columnas",
-      "elemento": "",
-      "descripcion": "",
-      "nivel": ""
+      "categoria": "DESNIVELES",
+      "elemento": "PLACA",
+      "descripcion": "Para la conformación de todas los deprimidos de duchas y balcones se dispone un desnivel de 3 cm con la misma estructura. Por ejemplo, ver planos:\n- 1157-EST-2401-PP-P1-PLANTA DUCHAS PISO 2\n- 1157-EST-2451-PP-P1-PLANTA DUCHAS PISO TIPO 2 (4,6,8 Y 10)",
+      "nivel": "De piso 2 a Piso 23",
+      "prioridad": "Alta"
     },
     {
-      "categoria": "Muros",
-      "elemento": "",
-      "descripcion": "",
-      "nivel": ""
+      "categoria": "EXCAVACIÓN",
+      "elemento": "PROCESO CONSTRUCTIVO",
+      "descripcion": "La excavación se realiza a cielo abierto siguiendo las indicaciones del estudio de suelos 1157-URB-0200-IN-GEO-T1-ALL-INFORME EYR 18492-2, capitulos 14 y 15.2 Ver documento AE-0484 Esquema Proceso Constructivo",
+      "nivel": "De cimentación a Piso 1",
+      "prioridad": "Alta"
     },
     {
-      "categoria": "Vigas Piso 1",
-      "elemento": "",
-      "descripcion": "",
-      "nivel": ""
-    },
-    {
-      "categoria": "Losa Piso 1",
-      "elemento": "",
-      "descripcion": "",
-      "nivel": ""
-    },
-    {
-      "categoria": "Vigas Piso 2",
-      "elemento": "",
-      "descripcion": "",
-      "nivel": ""
-    },
-    {
-      "categoria": "Losa Piso 2",
-      "elemento": "",
-      "descripcion": "",
-      "nivel": ""
-    },
-    {
-      "categoria": "Vigas Piso 3",
-      "elemento": "",
-      "descripcion": "",
-      "nivel": ""
-    },
-    {
-      "categoria": "Losa Piso 3",
-      "elemento": "",
-      "descripcion": "",
-      "nivel": ""
-    },
-    {
-      "categoria": "Vigas Piso 4",
-      "elemento": "",
-      "descripcion": "",
-      "nivel": ""
-    },
-    {
-      "categoria": "Losa Piso 4",
-      "elemento": "",
-      "descripcion": "",
-      "nivel": ""
-    },
-    {
-      "categoria": "Vigas Piso 5",
-      "elemento": "",
-      "descripcion": "",
-      "nivel": ""
-    },
-    {
-      "categoria": "Losa Piso 5",
-      "elemento": "",
-      "descripcion": "",
-      "nivel": ""
-    },
-    {
-      "categoria": "Vigas Piso 6",
-      "elemento": "",
-      "descripcion": "",
-      "nivel": ""
-    },
-    {
-      "categoria": "Losa Piso 6",
-      "elemento": "",
-      "descripcion": "",
-      "nivel": ""
-    },
-    {
-      "categoria": "Vigas Piso 7",
-      "elemento": "",
-      "descripcion": "",
-      "nivel": ""
-    },
-    {
-      "categoria": "Losa Piso 7",
-      "elemento": "",
-      "descripcion": "",
-      "nivel": ""
-    },
-    {
-      "categoria": "Vigas Cubierta",
-      "elemento": "",
-      "descripcion": "",
-      "nivel": ""
-    },
-    {
-      "categoria": "Losa Cubierta",
-      "elemento": "",
-      "descripcion": "",
-      "nivel": ""
-    },
-    {
-      "categoria": "Vigas Cub Maquinas",
-      "elemento": "",
-      "descripcion": "",
-      "nivel": ""
-    },
-    {
-      "categoria": "Cubierta maquinas",
-      "elemento": "",
-      "descripcion": "",
-      "nivel": ""
+      "categoria": "CARGAS",
+      "elemento": "PARQUEADERO",
+      "descripcion": "El óptimo comportamiento de las placas depende del estricto y riguroso posicionamiento de las mallas, teniendo en cuenta la magnitud y naturaleza de las cargas a las cuales se ven sometidas.",
+      "nivel": "Cimentacion y sótano 1",
+      "prioridad": "Media"
     }
   ]
 }

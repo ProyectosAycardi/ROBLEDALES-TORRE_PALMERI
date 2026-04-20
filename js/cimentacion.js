@@ -872,7 +872,7 @@ function mostrarResumenCapitulo() {
       </div>
 
       <div class="fila">
-        <span class="label">Cuantía promedio por área(kg/m²)</span>
+        <span class="label">Cuantía promedio por área de cimentación(kg/m²)</span>
         <span class="valor">${resumen.cuantiaArea.toFixed(1)}</span>
       </div>
 

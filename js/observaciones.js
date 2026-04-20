@@ -59,7 +59,7 @@ lista = lista.filter(o => o.categoria === cat);
 }
 
 if(niv !== "TODOS"){
-lista = lista.filter(o => o.nivel === niv);
+lista = lista.filter(o => o.prioridad === niv);
 }
 
 if(lista.length === 0){
@@ -111,7 +111,12 @@ card.innerHTML = `
 
 <div class="fila">
 <span class="label">Nivel</span>
-<span class="valor">${formatearNivel(o.nivel)}</span>
+<span class="valor">${o.nivel}</span>
+</div>
+
+<div class="fila">
+<span class="label">Prioridad</span>
+<span class="valor">${formatearNivel(o.prioridad)}</span>
 </div>
 
 `;
@@ -127,16 +132,16 @@ cont.appendChild(bloque);
 }
 
 
-function formatearNivel(nivel){
+function formatearNivel(prioridad){
 
-if(!nivel) return "";
+if(!prioridad) return "";
 
-const n = nivel.toLowerCase();
+const n = prioridad.toLowerCase();
 
 if(n === "alta") return "🔴 Alta";
 if(n === "media") return "🟡 Media";
 if(n === "baja") return "🟢 Baja";
 
-return nivel;
+return prioridad;
 
 }
