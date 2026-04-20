@@ -1026,28 +1026,33 @@ function obtenerTotalProyectoPorTipo(campo) {
 function obtenerOrdenPiso(piso) {
   if (!piso) return 999;
 
-  const p = piso.toString().toLowerCase();
+  const p = piso.toString().toLowerCase().trim();
 
-  // Sótanos y cimentación
-  if ( 
-    p.includes("sot") ||
-    p.includes("b") && /\d/.test(p) ||
-    p.includes("cim") ||
+  // ===== 1. CIMENTACIÓN (SIEMPRE EL MÁS BAJO) =====
+  if (
     p.includes("ciment") ||
+    p === "cim" ||
     p.includes("base")
   ) {
-    // Extrae número si existe (B2, SOT1, etc.)
-    const num = parseInt(p.match(/\d+/)?.[0] || "0", 10);
-    return -100 + num * -1;
+    return -1000; 
   }
 
-  // Pisos normales
+  // ===== 2. SÓTANOS =====
+  if (
+    p.includes("sot") ||
+    (p.includes("b") && /\d/.test(p))
+  ) {
+    const num = parseInt(p.match(/\d+/)?.[0] || "1", 10);
+    return -100 + (-num); // ej: S1 = -101, S2 = -102
+  }
+
+  // ===== 3. PISOS =====
   if (p.includes("piso")) {
     const num = parseInt(p.match(/\d+/)?.[0] || "0", 10);
     return num;
   }
 
-  // Cubiertas
+  // ===== 4. CUBIERTA =====
   if (
     p.includes("cubierta") ||
     p.includes("cub") ||
@@ -1056,7 +1061,7 @@ function obtenerOrdenPiso(piso) {
     return 1000;
   }
 
-  // Otros (por seguridad)
+  // ===== 5. OTROS =====
   return 500;
 }
 
