@@ -1273,7 +1273,7 @@
     },
     {
       "id": "Pilote T3",
-      "seccion": "Ø0.110 m ",
+      "seccion": "Ø1.10 m ",
       "cantidad": 12,
       "prof": 27.5,
       "longitud": 21,
@@ -1284,7 +1284,7 @@
     },
     {
       "id": "Pilote T4",
-      "seccion": "Ø0.120 m ",
+      "seccion": "Ø1.20 m ",
       "cantidad": 24,
       "prof": 27.5,
       "longitud": 21,
@@ -1295,7 +1295,7 @@
     },
     {
       "id": "Pilote T5",
-      "seccion": "Ø0.120 m ",
+      "seccion": "Ø1.20 m ",
       "cantidad": 2,
       "prof": 27.5,
       "longitud": 18.7,
@@ -8328,7 +8328,7 @@
       "cantidad": 1,
       "resistencia": 42,
       "volumen": 32.8,
-      "peso": 134824
+      "peso": 139063
     },
     {
       "id": "VC-002",
@@ -10708,7 +10708,7 @@
       "cantidad": 11,
       "resistencia": 42,
       "volumen": 4.89,
-      "peso": 25553
+      "peso": 25933
     },
     {
       "id": "VG-302",
@@ -11108,7 +11108,7 @@
       "cantidad": 7,
       "resistencia": 42,
       "volumen": 2.82,
-      "peso": 22750
+      "peso": 22903
     },
     {
       "id": "VG-402",
@@ -11738,7 +11738,7 @@
       "cantidad": 7,
       "resistencia": 42,
       "volumen": 2.87,
-      "peso": 22657
+      "peso": 22863
     },
     {
       "id": "VG-502",
@@ -12168,7 +12168,7 @@
       "cantidad": 7,
       "resistencia": 35,
       "volumen": 2.89,
-      "peso": 24315
+      "peso": 24468
     },
     {
       "id": "VG-402",
@@ -12708,7 +12708,7 @@
       "cantidad": 7,
       "resistencia": 35,
       "volumen": 2.87,
-      "peso": 22851
+      "peso": 23057
     },
     {
       "id": "VG-502",
@@ -13228,7 +13228,7 @@
       "cantidad": 7,
       "resistencia": 35,
       "volumen": 2.75,
-      "peso": 24315
+      "peso": 24468
     },
     {
       "id": "VG-402",
@@ -13768,7 +13768,7 @@
       "cantidad": 7,
       "resistencia": 35,
       "volumen": 2.87,
-      "peso": 22851
+      "peso": 23057
     },
     {
       "id": "VG-502",
@@ -14288,7 +14288,7 @@
       "cantidad": 7,
       "resistencia": 31.5,
       "volumen": 2.89,
-      "peso": 24315
+      "peso": 24468
     },
     {
       "id": "VG-402",
@@ -14828,7 +14828,7 @@
       "cantidad": 7,
       "resistencia": 31.5,
       "volumen": 2.84,
-      "peso": 23852
+      "peso": 24058
     },
     {
       "id": "VG-502",
@@ -15358,7 +15358,7 @@
       "cantidad": 7,
       "resistencia": 31.5,
       "volumen": 3.01,
-      "peso": 23928.1
+      "peso": 23984
     },
     {
       "id": "VG-602",
@@ -15938,7 +15938,7 @@
       "cantidad": 7,
       "resistencia": 31.5,
       "volumen": 3,
-      "peso": 24653
+      "peso": 24770
     },
     {
       "id": "VG-702",
@@ -16478,7 +16478,7 @@
       "cantidad": 7,
       "resistencia": 28,
       "volumen": 3.01,
-      "peso": 22784
+      "peso": 22885
     },
     {
       "id": "VG-802",
@@ -16988,7 +16988,7 @@
       "cantidad": 7,
       "resistencia": 28,
       "volumen": 3,
-      "peso": 24653
+      "peso": 24770
     },
     {
       "id": "VG-702",
@@ -17518,7 +17518,7 @@
       "cantidad": 7,
       "resistencia": 28,
       "volumen": 3.01,
-      "peso": 22784
+      "peso": 22885
     },
     {
       "id": "VG-802",
@@ -18038,7 +18038,7 @@
       "cantidad": 2,
       "resistencia": 28,
       "volumen": 2.89,
-      "peso": 24110
+      "peso": 24227
     },
     {
       "id": "VG-902",
@@ -18538,7 +18538,7 @@
       "cantidad": 1,
       "resistencia": 28,
       "volumen": 0.85,
-      "peso": 21934
+      "peso": 21981
     },
     {
       "id": "VG-1102",
@@ -19028,7 +19028,7 @@
       "cantidad": 1,
       "resistencia": 28,
       "volumen": 0.85,
-      "peso": 21580
+      "peso": 21621
     },
     {
       "id": "VG-1202",
@@ -19508,7 +19508,7 @@
       "cantidad": 1,
       "resistencia": 28,
       "volumen": 0.85,
-      "peso": 22447
+      "peso": 22539
     },
     {
       "id": "VG-1302",
@@ -20028,7 +20028,7 @@
       "cantidad": 1,
       "resistencia": 28,
       "volumen": 0.85,
-      "peso": 21135
+      "peso": 21214
     },
     {
       "id": "VG-1402",
@@ -20588,7 +20588,7 @@
       "cantidad": 15,
       "resistencia": 28,
       "volumen": 8.5,
-      "peso": 20825
+      "peso": 20867
     },
     {
       "id": "VG-1502",
@@ -21098,7 +21098,7 @@
       "cantidad": 2,
       "resistencia": 28,
       "volumen": 0.85,
-      "peso": 17095
+      "peso": 17268
     },
     {
       "id": "VG-1602",
@@ -21648,7 +21648,7 @@
       "cantidad": 11,
       "resistencia": 28,
       "volumen": 0.55,
-      "peso": 14172
+      "peso": 14186
     },
     {
       "id": "R1",
@@ -22814,7 +22814,7 @@
       "resistencia": 42,
       "area": 2727.73,
       "volumen": 314.32,
-      "peso": 22770.85
+      "peso": 22991
     },
     {
       "piso": "Piso 2",
@@ -22822,7 +22822,7 @@
       "resistencia": 42,
       "area": 1093.67,
       "volumen": 130.83,
-      "peso": 9129.82
+      "peso": 8861
     },
     {
       "piso": "Piso 3",
@@ -22830,7 +22830,7 @@
       "resistencia": 42,
       "area": 809.33,
       "volumen": 96.51,
-      "peso": 6756.23
+      "peso": 6610
     },
     {
       "piso": "Piso 4",
@@ -22838,7 +22838,7 @@
       "resistencia": 42,
       "area": 815.17,
       "volumen": 97.12,
-      "peso": 6804.93
+      "peso": 6552
     },
     {
       "piso": "Piso 5",
@@ -22846,7 +22846,7 @@
       "resistencia": 35,
       "area": 809.33,
       "volumen": 96.5,
-      "peso": 6756.23
+      "peso": 6610
     },
     {
       "piso": "Piso 6",
@@ -22854,7 +22854,7 @@
       "resistencia": 35,
       "area": 815.17,
       "volumen": 97.1,
-      "peso": 6804.93
+      "peso": 6552
     },
     {
       "piso": "Piso 7",
@@ -22862,7 +22862,7 @@
       "resistencia": 35,
       "area": 809.33,
       "volumen": 96.5,
-      "peso": 6756.23
+      "peso": 6610
     },
     {
       "piso": "Piso 8",
@@ -22870,7 +22870,7 @@
       "resistencia": 35,
       "area": 815.17,
       "volumen": 97.1,
-      "peso": 6804.93
+      "peso": 6552
     },
     {
       "piso": "Piso 9",
@@ -22878,7 +22878,7 @@
       "resistencia": 32,
       "area": 809.33,
       "volumen": 96.5,
-      "peso": 6756.23
+      "peso": 6656
     },
     {
       "piso": "Piso 10",
@@ -22886,7 +22886,7 @@
       "resistencia": 32,
       "area": 815.17,
       "volumen": 97.1,
-      "peso": 6804.93
+      "peso": 6552
     },
     {
       "piso": "Piso 11",
@@ -22894,7 +22894,7 @@
       "resistencia": 32,
       "area": 809.99,
       "volumen": 97.2,
-      "peso": 6761.72
+      "peso": 6531
     },
     {
       "piso": "Piso 12",
@@ -22902,7 +22902,7 @@
       "resistencia": 32,
       "area": 794.26,
       "volumen": 95.3,
-      "peso": 6630.4
+      "peso": 6399
     },
     {
       "piso": "Piso 13",
@@ -22910,7 +22910,7 @@
       "resistencia": 28,
       "area": 792.04,
       "volumen": 95,
-      "peso": 6611.87
+      "peso": 6360
     },
     {
       "piso": "Piso 14",
@@ -22918,7 +22918,7 @@
       "resistencia": 28,
       "area": 794.26,
       "volumen": 95.3,
-      "peso": 6630.4
+      "peso": 6399
     },
     {
       "piso": "Piso 15",
@@ -22926,7 +22926,7 @@
       "resistencia": 28,
       "area": 792.04,
       "volumen": 95,
-      "peso": 6611.87
+      "peso": 6360
     },
     {
       "piso": "Piso 16",
@@ -22934,7 +22934,7 @@
       "resistencia": 28,
       "area": 803.8,
       "volumen": 96.5,
-      "peso": 6710.04
+      "peso": 6498
     },
     {
       "piso": "Piso 17",
@@ -22942,7 +22942,7 @@
       "resistencia": 28,
       "area": 729.72,
       "volumen": 87.6,
-      "peso": 6091.63
+      "peso": 5914
     },
     {
       "piso": "Piso 18",
@@ -22950,7 +22950,7 @@
       "resistencia": 28,
       "area": 725.69,
       "volumen": 87.1,
-      "peso": 6057.99
+      "peso": 5880
     },
     {
       "piso": "Piso 19",
@@ -22958,7 +22958,7 @@
       "resistencia": 28,
       "area": 744.06,
       "volumen": 89.3,
-      "peso": 6211.34
+      "peso": 5991
     },
     {
       "piso": "Piso 20",
@@ -22966,7 +22966,7 @@
       "resistencia": 28,
       "area": 708.74,
       "volumen": 85.1,
-      "peso": 5916.49
+      "peso": 5750
     },
     {
       "piso": "Piso 21",
@@ -22974,7 +22974,7 @@
       "resistencia": 28,
       "area": 728.61,
       "volumen": 87.4,
-      "peso": 6082.36
+      "peso": 5908
     },
     {
       "piso": "Piso 22",
@@ -22982,7 +22982,7 @@
       "resistencia": 28,
       "area": 592.8,
       "volumen": 71.1,
-      "peso": 4948.64
+      "peso": 4868
     },
     {
       "piso": "Piso 23",
@@ -22990,7 +22990,7 @@
       "resistencia": 28,
       "area": 512.7,
       "volumen": 61.5,
-      "peso": 4279.97
+      "peso": 4255
     },
     {
       "piso": "Piso 24",
@@ -22998,7 +22998,7 @@
       "resistencia": 28,
       "area": 240.73,
       "volumen": 28.9,
-      "peso": 2009.59
+      "peso": 2004
     },
     {
       "piso": "Piso 25",
@@ -23006,7 +23006,7 @@
       "resistencia": 28,
       "area": 93.47,
       "volumen": 11.2,
-      "peso": 780.28
+      "peso": 775
     },
     {
       "piso": "Piso 26",
@@ -23014,7 +23014,7 @@
       "resistencia": 28,
       "area": 10.72,
       "volumen": 1.3,
-      "peso": 89.49
+      "peso": 104
     }
   ],
   "contencion": [
@@ -23080,10 +23080,10 @@
     {
       "capitulo": "Vigas cimentación",
       "volumen": 936.3,
-      "peso": 134824,
+      "peso": 139063,
       "area": 2694.23,
-      "cuantiaVol": 143.996582292,
-      "cuantiaArea": 50.0417559005727,
+      "cuantiaVol": 148.523977357685,
+      "cuantiaArea": 51.6151182341522,
       "consumo": 0.347520441833103
     },
     {
@@ -23106,12 +23106,12 @@
     },
     {
       "capitulo": "Vigas Sotano",
-      "volumen": 335.6,
+      "volumen": 310.1,
       "peso": 49421,
       "area": 2734.17,
-      "cuantiaVol": 147.261620977354,
+      "cuantiaVol": 159.371170590132,
       "cuantiaArea": 18.0753208469115,
-      "consumo": 0.122742916497511
+      "consumo": 0.113416502997253
     },
     {
       "capitulo": "Losa Sotano",
@@ -23143,406 +23143,406 @@
     {
       "capitulo": "Vigas Piso 2",
       "volumen": 146.42,
-      "peso": 25553,
+      "peso": 25933,
       "area": 1093.66666666667,
-      "cuantiaVol": 174.518508400492,
-      "cuantiaArea": 23.364523011277,
+      "cuantiaVol": 177.113782270182,
+      "cuantiaArea": 23.7119780554709,
       "consumo": 0.133879914660165
     },
     {
       "capitulo": "Losa Piso 2",
       "volumen": 130.83,
-      "peso": 9527,
+      "peso": 8861,
       "area": 1093.66666666667,
-      "cuantiaVol": 72.8196896736222,
-      "cuantiaArea": 8.71106370009143,
+      "cuantiaVol": 67.7291141175571,
+      "cuantiaArea": 8.10210301737275,
       "consumo": 0.119625114294422
     },
     {
       "capitulo": "Vigas Piso 3",
       "volumen": 120.47,
-      "peso": 22750,
+      "peso": 22903,
       "area": 809.333333333333,
-      "cuantiaVol": 188.843695525857,
-      "cuantiaArea": 28.1095551894563,
+      "cuantiaVol": 190.113721258405,
+      "cuantiaArea": 28.2985996705107,
       "consumo": 0.148850906095552
     },
     {
       "capitulo": "Losa Piso 3",
       "volumen": 96.51,
-      "peso": 7103,
+      "peso": 6610,
       "area": 809.333333333333,
-      "cuantiaVol": 73.5985908196042,
-      "cuantiaArea": 8.77635914332784,
+      "cuantiaVol": 68.4903118847788,
+      "cuantiaArea": 8.167215815486,
       "consumo": 0.11924629324547
     },
     {
       "capitulo": "Vigas Piso 4",
       "volumen": 120.7,
-      "peso": 22657,
+      "peso": 22863,
       "area": 815.166666666667,
-      "cuantiaVol": 187.713338856669,
-      "cuantiaArea": 27.794316090779,
+      "cuantiaVol": 189.420049710025,
+      "cuantiaArea": 28.0470251482314,
       "consumo": 0.148067879779186
     },
     {
       "capitulo": "Losa Piso 4",
       "volumen": 97.1,
-      "peso": 7047,
+      "peso": 6552,
       "area": 815.166666666667,
-      "cuantiaVol": 72.5746652935118,
-      "cuantiaArea": 8.64485790226947,
+      "cuantiaVol": 67.4768280123584,
+      "cuantiaArea": 8.03762011858516,
       "consumo": 0.119116745041914
     },
     {
       "capitulo": "Vigas Piso 5",
       "volumen": 120.47,
-      "peso": 24315,
+      "peso": 24468,
       "area": 809.333333333333,
-      "cuantiaVol": 201.83448161368,
-      "cuantiaArea": 30.0432454695222,
+      "cuantiaVol": 203.104507346227,
+      "cuantiaArea": 30.2322899505766,
       "consumo": 0.148850906095552
     },
     {
       "capitulo": "Losa Piso 5",
       "volumen": 96.51,
-      "peso": 7103,
+      "peso": 6610,
       "area": 809.333333333333,
-      "cuantiaVol": 73.5985908196042,
-      "cuantiaArea": 8.77635914332784,
+      "cuantiaVol": 68.4903118847788,
+      "cuantiaArea": 8.167215815486,
       "consumo": 0.11924629324547
     },
     {
       "capitulo": "Vigas Piso 6",
       "volumen": 120.7,
-      "peso": 22851,
+      "peso": 23057,
       "area": 815.166666666667,
-      "cuantiaVol": 189.320629660315,
-      "cuantiaArea": 28.0323042322633,
+      "cuantiaVol": 191.02734051367,
+      "cuantiaArea": 28.2850132897158,
       "consumo": 0.148067879779186
     },
     {
       "capitulo": "Losa Piso 6",
       "volumen": 97.1,
-      "peso": 7047,
+      "peso": 6552,
       "area": 815.166666666667,
-      "cuantiaVol": 72.5746652935118,
-      "cuantiaArea": 8.64485790226947,
+      "cuantiaVol": 67.4768280123584,
+      "cuantiaArea": 8.03762011858516,
       "consumo": 0.119116745041914
     },
     {
       "capitulo": "Vigas Piso 7",
       "volumen": 120.47,
-      "peso": 24315,
+      "peso": 24468,
       "area": 809.333333333333,
-      "cuantiaVol": 201.83448161368,
-      "cuantiaArea": 30.0432454695222,
+      "cuantiaVol": 203.104507346227,
+      "cuantiaArea": 30.2322899505766,
       "consumo": 0.148850906095552
     },
     {
       "capitulo": "Losa Piso 7",
       "volumen": 96.51,
-      "peso": 7103,
+      "peso": 6610,
       "area": 809.333333333333,
-      "cuantiaVol": 73.5985908196042,
-      "cuantiaArea": 8.77635914332784,
+      "cuantiaVol": 68.4903118847788,
+      "cuantiaArea": 8.167215815486,
       "consumo": 0.11924629324547
     },
     {
       "capitulo": "Vigas Piso 8",
       "volumen": 120.7,
-      "peso": 22851,
+      "peso": 23057,
       "area": 815.166666666667,
-      "cuantiaVol": 189.320629660315,
-      "cuantiaArea": 28.0323042322633,
+      "cuantiaVol": 191.02734051367,
+      "cuantiaArea": 28.2850132897158,
       "consumo": 0.148067879779186
     },
     {
       "capitulo": "Losa Piso 8",
       "volumen": 97.1,
-      "peso": 7047,
+      "peso": 6552,
       "area": 815.166666666667,
-      "cuantiaVol": 72.5746652935118,
-      "cuantiaArea": 8.64485790226947,
+      "cuantiaVol": 67.4768280123584,
+      "cuantiaArea": 8.03762011858516,
       "consumo": 0.119116745041914
     },
     {
       "capitulo": "Vigas Piso 9",
       "volumen": 120.47,
-      "peso": 24315,
+      "peso": 24468,
       "area": 809.333333333333,
-      "cuantiaVol": 201.83448161368,
-      "cuantiaArea": 30.0432454695222,
+      "cuantiaVol": 203.104507346227,
+      "cuantiaArea": 30.2322899505766,
       "consumo": 0.148850906095552
     },
     {
       "capitulo": "Losa Piso 9",
       "volumen": 96.51,
-      "peso": 7151,
+      "peso": 6656,
       "area": 809.333333333333,
-      "cuantiaVol": 74.095948606362,
-      "cuantiaArea": 8.83566721581549,
+      "cuantiaVol": 68.9669464304217,
+      "cuantiaArea": 8.22405271828666,
       "consumo": 0.11924629324547
     },
     {
       "capitulo": "Vigas Piso 10",
       "volumen": 120.7,
-      "peso": 23852,
+      "peso": 24058,
       "area": 815.166666666667,
-      "cuantiaVol": 197.613918806959,
-      "cuantiaArea": 29.2602739726027,
+      "cuantiaVol": 199.320629660315,
+      "cuantiaArea": 29.5129830300552,
       "consumo": 0.148067879779186
     },
     {
       "capitulo": "Losa Piso 10",
       "volumen": 97.1,
-      "peso": 7047,
+      "peso": 6552,
       "area": 815.166666666667,
-      "cuantiaVol": 72.5746652935118,
-      "cuantiaArea": 8.64485790226947,
+      "cuantiaVol": 67.4768280123584,
+      "cuantiaArea": 8.03762011858516,
       "consumo": 0.119116745041914
     },
     {
       "capitulo": "Losa Piso 11",
       "volumen": 97.2,
-      "peso": 7024,
+      "peso": 6531,
       "area": 809.99,
-      "cuantiaVol": 72.2633744855967,
-      "cuantiaArea": 8.6717119964444,
+      "cuantiaVol": 67.1913580246914,
+      "cuantiaArea": 8.06306250694453,
       "consumo": 0.120001481499772
     },
     {
       "capitulo": "Vigas Piso 11",
       "volumen": 121.28,
-      "peso": 23928.1,
+      "peso": 23984,
       "area": 809.99,
-      "cuantiaVol": 197.296339050132,
-      "cuantiaArea": 29.5412289040605,
+      "cuantiaVol": 197.757255936675,
+      "cuantiaArea": 29.6102421017543,
       "consumo": 0.149730243583254
     },
     {
       "capitulo": "Losa Piso 12",
       "volumen": 95.31,
-      "peso": 6882,
+      "peso": 6399,
       "area": 794.26,
-      "cuantiaVol": 72.2064841045011,
-      "cuantiaArea": 8.66466900007554,
+      "cuantiaVol": 67.1388101983003,
+      "cuantiaArea": 8.0565557877773,
       "consumo": 0.119998489159721
     },
     {
       "capitulo": "Vigas Piso 12",
       "volumen": 120.29,
-      "peso": 24653,
+      "peso": 24770,
       "area": 794.26,
-      "cuantiaVol": 204.946379582675,
-      "cuantiaArea": 31.0389544985269,
+      "cuantiaVol": 205.919029013218,
+      "cuantiaArea": 31.1862614257296,
       "consumo": 0.151449147634276
     },
     {
       "capitulo": "Losa Piso 13",
       "volumen": 95.04,
-      "peso": 6841,
+      "peso": 6360,
       "area": 792.04,
-      "cuantiaVol": 71.9802188552189,
-      "cuantiaArea": 8.63719004090703,
+      "cuantiaVol": 66.9191919191919,
+      "cuantiaArea": 8.02989747992526,
       "consumo": 0.119993939700015
     },
     {
       "capitulo": "Vigas Piso 13",
       "volumen": 120.29,
-      "peso": 22784,
+      "peso": 22885,
       "area": 792.04,
-      "cuantiaVol": 189.408928422978,
-      "cuantiaArea": 28.7662239280844,
+      "cuantiaVol": 190.248565965583,
+      "cuantiaArea": 28.8937427402656,
       "consumo": 0.151873642745316
     },
     {
       "capitulo": "Losa Piso 14",
       "volumen": 95.31,
-      "peso": 6882,
+      "peso": 6399,
       "area": 794.26,
-      "cuantiaVol": 72.2064841045011,
-      "cuantiaArea": 8.66466900007554,
+      "cuantiaVol": 67.1388101983003,
+      "cuantiaArea": 8.0565557877773,
       "consumo": 0.119998489159721
     },
     {
       "capitulo": "Vigas Piso 14",
       "volumen": 120.29,
-      "peso": 24653,
+      "peso": 24770,
       "area": 794.26,
-      "cuantiaVol": 204.946379582675,
-      "cuantiaArea": 31.0389544985269,
+      "cuantiaVol": 205.919029013218,
+      "cuantiaArea": 31.1862614257296,
       "consumo": 0.151449147634276
     },
     {
       "capitulo": "Losa Piso 15",
       "volumen": 95.04,
-      "peso": 6841,
+      "peso": 6360,
       "area": 792.04,
-      "cuantiaVol": 71.9802188552189,
-      "cuantiaArea": 8.63719004090703,
+      "cuantiaVol": 66.9191919191919,
+      "cuantiaArea": 8.02989747992526,
       "consumo": 0.119993939700015
     },
     {
       "capitulo": "Vigas Piso 15",
       "volumen": 120.29,
-      "peso": 22784,
+      "peso": 22885,
       "area": 792.04,
-      "cuantiaVol": 189.408928422978,
-      "cuantiaArea": 28.7662239280844,
+      "cuantiaVol": 190.248565965583,
+      "cuantiaArea": 28.8937427402656,
       "consumo": 0.151873642745316
     },
     {
       "capitulo": "Losa Piso 16",
       "volumen": 96.46,
-      "peso": 6987,
+      "peso": 6498,
       "area": 803.8,
-      "cuantiaVol": 72.4341696039809,
-      "cuantiaArea": 8.69246081114705,
+      "cuantiaVol": 67.3647107609372,
+      "cuantiaArea": 8.08410052251804,
       "consumo": 0.120004976362279
     },
     {
       "capitulo": "Vigas Piso 16",
       "volumen": 120.9,
-      "peso": 24110,
+      "peso": 24227,
       "area": 803.8,
-      "cuantiaVol": 199.421009098428,
-      "cuantiaArea": 29.9950236377208,
+      "cuantiaVol": 200.388751033912,
+      "cuantiaArea": 30.1405822343867,
       "consumo": 0.150410549888032
     },
     {
       "capitulo": "Losa Piso 17",
       "volumen": 87.57,
-      "peso": 6358,
+      "peso": 5914,
       "area": 729.72,
-      "cuantiaVol": 72.6047733241978,
-      "cuantiaArea": 8.71293098722798,
+      "cuantiaVol": 67.5345437935366,
+      "cuantiaArea": 8.10447843008277,
       "consumo": 0.120004933399112
     },
     {
       "capitulo": "Vigas Piso 17",
       "volumen": 110.3,
-      "peso": 21934,
+      "peso": 21981,
       "area": 729.72,
-      "cuantiaVol": 198.857660924751,
-      "cuantiaArea": 30.0581044784301,
+      "cuantiaVol": 199.283771532185,
+      "cuantiaArea": 30.1225127446144,
       "consumo": 0.151153867236748
     },
     {
       "capitulo": "Losa Piso 18",
       "volumen": 87.08,
-      "peso": 6321,
+      "peso": 5880,
       "area": 725.69,
-      "cuantiaVol": 72.588424437299,
-      "cuantiaArea": 8.7103308575287,
+      "cuantiaVol": 67.524115755627,
+      "cuantiaArea": 8.10263335584065,
       "consumo": 0.119996141603164
     },
     {
       "capitulo": "Vigas Piso 18",
       "volumen": 109.42,
-      "peso": 21580,
+      "peso": 21621,
       "area": 725.69,
-      "cuantiaVol": 197.221714494608,
-      "cuantiaArea": 29.7372156154832,
+      "cuantiaVol": 197.596417473954,
+      "cuantiaArea": 29.7937135691549,
       "consumo": 0.150780636359878
     },
     {
       "capitulo": "Losa Piso 19",
       "volumen": 89.29,
-      "peso": 6443,
+      "peso": 5991,
       "area": 744.06,
-      "cuantiaVol": 72.1581364094523,
-      "cuantiaArea": 8.65924791011478,
+      "cuantiaVol": 67.0959793929891,
+      "cuantiaArea": 8.05177001854689,
       "consumo": 0.120003763137381
     },
     {
       "capitulo": "Vigas Piso 19",
       "volumen": 112.5,
-      "peso": 22447,
+      "peso": 22539,
       "area": 744.06,
-      "cuantiaVol": 199.528888888889,
-      "cuantiaArea": 30.1682660000538,
+      "cuantiaVol": 200.346666666667,
+      "cuantiaArea": 30.2919119425853,
       "consumo": 0.151197484073865
     },
     {
       "capitulo": "Losa Piso 20",
       "volumen": 85.05,
-      "peso": 6181,
+      "peso": 5750,
       "area": 708.74,
-      "cuantiaVol": 72.6748971193416,
-      "cuantiaArea": 8.72111070350199,
+      "cuantiaVol": 67.6072898295121,
+      "cuantiaArea": 8.11298924852555,
       "consumo": 0.120001693145582
     },
     {
       "capitulo": "Vigas Piso 20",
       "volumen": 107.82,
-      "peso": 21135,
+      "peso": 21214,
       "area": 708.74,
-      "cuantiaVol": 196.021146355036,
-      "cuantiaArea": 29.8205265682761,
+      "cuantiaVol": 196.753849007605,
+      "cuantiaArea": 29.9319919857776,
       "consumo": 0.152129130569743
     },
     {
       "capitulo": "Losa Piso 21",
       "volumen": 87.43,
-      "peso": 6351,
+      "peso": 5908,
       "area": 728.61,
-      "cuantiaVol": 72.6409699187922,
-      "cuantiaArea": 8.71659735661053,
+      "cuantiaVol": 67.5740592473979,
+      "cuantiaArea": 8.10859032953157,
       "consumo": 0.119995608075651
     },
     {
       "capitulo": "Vigas Piso 21",
       "volumen": 110.75,
-      "peso": 20825,
+      "peso": 20867,
       "area": 728.61,
-      "cuantiaVol": 188.03611738149,
-      "cuantiaArea": 28.5818201781474,
+      "cuantiaVol": 188.415349887133,
+      "cuantiaArea": 28.6394641852294,
       "consumo": 0.15200175676974
     },
     {
       "capitulo": "Losa Piso 22",
       "volumen": 71.14,
-      "peso": 5229,
+      "peso": 4868,
       "area": 592.8,
-      "cuantiaVol": 73.5029519257802,
-      "cuantiaArea": 8.82085020242915,
+      "cuantiaVol": 68.4284509418049,
+      "cuantiaArea": 8.21187584345479,
       "consumo": 0.120006747638327
     },
     {
       "capitulo": "Vigas Piso 22",
       "volumen": 89.26,
-      "peso": 17095,
+      "peso": 17268,
       "area": 592.8,
-      "cuantiaVol": 191.519157517365,
-      "cuantiaArea": 28.8377192982456,
+      "cuantiaVol": 193.457315706924,
+      "cuantiaArea": 29.1295546558704,
       "consumo": 0.15057354925776
     },
     {
       "capitulo": "Losa Piso 23",
       "volumen": 61.52,
-      "peso": 4566,
+      "peso": 4255,
       "area": 512.7,
-      "cuantiaVol": 74.2197659297789,
-      "cuantiaArea": 8.90579286132241,
+      "cuantiaVol": 69.1644993498049,
+      "cuantiaArea": 8.29920031207334,
       "consumo": 0.119992198166569
     },
     {
       "capitulo": "Vigas Piso 23",
       "volumen": 80.22,
-      "peso": 14172,
+      "peso": 14186,
       "area": 512.7,
-      "cuantiaVol": 176.664173522812,
-      "cuantiaArea": 27.6418958455237,
+      "cuantiaVol": 176.83869359262,
+      "cuantiaArea": 27.6692022625317,
       "consumo": 0.156465769455822
     },
     {
       "capitulo": "Losa Piso 24",
       "volumen": 28.89,
-      "peso": 2150,
+      "peso": 2004,
       "area": 240.73,
-      "cuantiaVol": 74.4202146071305,
-      "cuantiaArea": 8.93116769825115,
+      "cuantiaVol": 69.3665628245067,
+      "cuantiaArea": 8.32467910106759,
       "consumo": 0.12000996967557
     },
     {
@@ -23566,28 +23566,28 @@
     {
       "capitulo": "Losa Piso 25",
       "volumen": 11.22,
-      "peso": 832,
+      "peso": 775,
       "area": 93.47,
-      "cuantiaVol": 74.1532976827095,
-      "cuantiaArea": 8.90125173852573,
+      "cuantiaVol": 69.0730837789661,
+      "cuantiaArea": 8.29143040547769,
       "consumo": 0.120038515031561
     },
     {
       "capitulo": "Vigas Piso 26",
-      "volumen": 1.29,
+      "volumen": 1.7,
       "peso": 192,
       "area": 10.72,
-      "cuantiaVol": 148.837209302326,
+      "cuantiaVol": 112.941176470588,
       "cuantiaArea": 17.910447761194,
-      "consumo": 0.120335820895522
+      "consumo": 0.158582089552239
     },
     {
       "capitulo": "Losa Piso 26",
       "volumen": 1.7,
-      "peso": 89,
+      "peso": 104,
       "area": 10.72,
-      "cuantiaVol": 52.3529411764706,
-      "cuantiaArea": 8.30223880597015,
+      "cuantiaVol": 61.1764705882353,
+      "cuantiaArea": 9.70149253731343,
       "consumo": 0.158582089552239
     }
   ],

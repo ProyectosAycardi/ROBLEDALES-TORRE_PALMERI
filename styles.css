@@ -1123,4 +1123,35 @@ td:last-child {
     max-width: 120px;
   }
 
+    .sellos {
+    gap: 6px;
+    margin-top: 8px;
+  }
+
+  .sellos img {
+    width: 32px;
+    height: 32px;
+  }
+
+}
+
+/* CONTENEDOR SELLOS */
+.sellos {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+/* IMÁGENES */
+.sellos img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+/* EFECTO HOVER (solo desktop) */
+.sellos img:hover {
+  transform: scale(1.1);
 }
