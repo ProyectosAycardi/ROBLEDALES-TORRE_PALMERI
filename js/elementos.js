@@ -861,12 +861,19 @@ function mostrarComparativoEntrepiso(pisoSeleccionado) {
   if (!pisoSeleccionado || pisoSeleccionado === "TOTAL") return;
 
   // Extraer número del piso (ej: "Piso 2" -> "2")
-  const numeroPiso = pisoSeleccionado.toString().match(/\d+/)?.[0];
 
-  if (!numeroPiso) return;
+  let numeroPiso = pisoSeleccionado.toString().match(/\d+/)?.[0];
 
-  const nombreVigas = `vigas piso ${numeroPiso}`.toLowerCase();
-  const nombreLosas = `losa piso ${numeroPiso}`.toLowerCase();
+  let nombreVigas, nombreLosas;
+
+  if (numeroPiso) {
+    nombreVigas = `vigas piso ${numeroPiso}`.toLowerCase();
+    nombreLosas = `losa piso ${numeroPiso}`.toLowerCase();
+  } else {
+    // caso sótano
+    nombreVigas = `vigas sotano`;
+    nombreLosas = `losa sotano`;
+  }
 
   const capVigas = DATA.capitulos.find(c =>
     c.capitulo.toLowerCase() === nombreVigas
