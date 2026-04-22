@@ -8842,7 +8842,7 @@
     },
     {
       "id": "R",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=10x55",
       "plano": "1157-EST-2350-PP-P1-PLANTA SÓTANO 1",
       "cantidad": 2,
@@ -8852,7 +8852,7 @@
     },
     {
       "id": "R1",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=10x55",
       "plano": "1157-EST-2350-PP-P1-PLANTA SÓTANO 1",
       "cantidad": 9,
@@ -8862,7 +8862,7 @@
     },
     {
       "id": "VG-101",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55",
       "plano": "1157-EST-2351-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -8872,7 +8872,7 @@
     },
     {
       "id": "VG-102",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55",
       "plano": "1157-EST-2351-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -8882,7 +8882,7 @@
     },
     {
       "id": "VG-103",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55",
       "plano": "1157-EST-2351-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -8892,7 +8892,7 @@
     },
     {
       "id": "VG-104",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55",
       "plano": "1157-EST-2351-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -8902,7 +8902,7 @@
     },
     {
       "id": "VG-105",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=40x55",
       "plano": "1157-EST-2351-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 9,
@@ -8912,7 +8912,7 @@
     },
     {
       "id": "VG-106",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=30x55, 40x55",
       "plano": "1157-EST-2351-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 7,
@@ -8922,7 +8922,7 @@
     },
     {
       "id": "VG-107",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55",
       "plano": "1157-EST-2351-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -8932,7 +8932,7 @@
     },
     {
       "id": "VG-108",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55, 40x55",
       "plano": "1157-EST-2351-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 14,
@@ -8942,7 +8942,7 @@
     },
     {
       "id": "VG-109",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55, 40x55",
       "plano": "1157-EST-2352-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 16,
@@ -8952,7 +8952,7 @@
     },
     {
       "id": "VG-110",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55",
       "plano": "1157-EST-2352-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -8962,7 +8962,7 @@
     },
     {
       "id": "VG-111",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55",
       "plano": "1157-EST-2352-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -8972,7 +8972,7 @@
     },
     {
       "id": "VG-112",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55, 60x55",
       "plano": "1157-EST-2352-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 2,
@@ -8982,7 +8982,7 @@
     },
     {
       "id": "VG-113",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55",
       "plano": "1157-EST-2352-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 4,
@@ -8992,7 +8992,7 @@
     },
     {
       "id": "VG-114",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55",
       "plano": "1157-EST-2352-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 3,
@@ -9002,7 +9002,7 @@
     },
     {
       "id": "VG-115",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=29x55, 29x78",
       "plano": "1157-EST-2352-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 2,
@@ -9012,7 +9012,7 @@
     },
     {
       "id": "VG-116",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=30x55",
       "plano": "1157-EST-2352-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9022,7 +9022,7 @@
     },
     {
       "id": "VG-117",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=30x55",
       "plano": "1157-EST-2352-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9032,7 +9032,7 @@
     },
     {
       "id": "VG-118",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55, 75x55",
       "plano": "1157-EST-2352-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 4,
@@ -9042,7 +9042,7 @@
     },
     {
       "id": "VG-119",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55, 90x55",
       "plano": "1157-EST-2352-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 3,
@@ -9052,7 +9052,7 @@
     },
     {
       "id": "VG-120",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55",
       "plano": "1157-EST-2352-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9062,7 +9062,7 @@
     },
     {
       "id": "VG-121",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55, 90x55, 70x55",
       "plano": "1157-EST-2353-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 4,
@@ -9072,7 +9072,7 @@
     },
     {
       "id": "VG-122",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55, 90x55",
       "plano": "1157-EST-2353-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 3,
@@ -9082,7 +9082,7 @@
     },
     {
       "id": "VG-123",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=120x55",
       "plano": "1157-EST-2353-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9092,7 +9092,7 @@
     },
     {
       "id": "VG-124",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=30x55",
       "plano": "1157-EST-2353-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9102,7 +9102,7 @@
     },
     {
       "id": "VG-125",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55",
       "plano": "1157-EST-2353-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 5,
@@ -9112,7 +9112,7 @@
     },
     {
       "id": "VG-126",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55",
       "plano": "1157-EST-2353-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 7,
@@ -9122,7 +9122,7 @@
     },
     {
       "id": "VG-127",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=30x55",
       "plano": "1157-EST-2353-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9132,7 +9132,7 @@
     },
     {
       "id": "VG-128",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55, 30x55",
       "plano": "1157-EST-2353-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 8,
@@ -9142,7 +9142,7 @@
     },
     {
       "id": "VG-129",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55, 30x55, 50x70",
       "plano": "1157-EST-2353-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 4,
@@ -9152,7 +9152,7 @@
     },
     {
       "id": "VG-130",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=30x55, 50x70",
       "plano": "1157-EST-2353-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 2,
@@ -9162,7 +9162,7 @@
     },
     {
       "id": "VG-131",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55",
       "plano": "1157-EST-2353-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 6,
@@ -9172,7 +9172,7 @@
     },
     {
       "id": "VG-132",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=30x55, 50x55",
       "plano": "1157-EST-2354-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 5,
@@ -9182,7 +9182,7 @@
     },
     {
       "id": "VG-133",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=30x55, 50x55",
       "plano": "1157-EST-2354-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 6,
@@ -9192,7 +9192,7 @@
     },
     {
       "id": "VG-134",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55",
       "plano": "1157-EST-2354-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 8,
@@ -9202,7 +9202,7 @@
     },
     {
       "id": "VG-135",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=30x55, 50x70",
       "plano": "1157-EST-2354-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 2,
@@ -9212,7 +9212,7 @@
     },
     {
       "id": "VG-136",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55, 30x55, 50x70",
       "plano": "1157-EST-2354-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 4,
@@ -9222,7 +9222,7 @@
     },
     {
       "id": "VG-137",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55",
       "plano": "1157-EST-2354-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 6,
@@ -9232,7 +9232,7 @@
     },
     {
       "id": "VG-138",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=30x55",
       "plano": "1157-EST-2354-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9242,7 +9242,7 @@
     },
     {
       "id": "VG-139",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55",
       "plano": "1157-EST-2354-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 5,
@@ -9252,7 +9252,7 @@
     },
     {
       "id": "VG-140",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55",
       "plano": "1157-EST-2354-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 4,
@@ -9262,7 +9262,7 @@
     },
     {
       "id": "VG-141",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=30x55",
       "plano": "1157-EST-2354-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9272,7 +9272,7 @@
     },
     {
       "id": "VG-142",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55",
       "plano": "1157-EST-2354-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9282,7 +9282,7 @@
     },
     {
       "id": "VG-143",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55",
       "plano": "1157-EST-2354-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9292,7 +9292,7 @@
     },
     {
       "id": "VG-144",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=30x55",
       "plano": "1157-EST-2354-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9302,7 +9302,7 @@
     },
     {
       "id": "VG-145",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55",
       "plano": "1157-EST-2355-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9312,7 +9312,7 @@
     },
     {
       "id": "VG-171",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=50x55",
       "plano": "1157-EST-2357-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9322,7 +9322,7 @@
     },
     {
       "id": "VG-172",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=30x55",
       "plano": "1157-EST-2357-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 2,
@@ -9332,7 +9332,7 @@
     },
     {
       "id": "VG-173",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=30x55, 50x55",
       "plano": "1157-EST-2357-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 6,
@@ -9342,7 +9342,7 @@
     },
     {
       "id": "VG-174",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=30x55",
       "plano": "1157-EST-2357-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9352,7 +9352,7 @@
     },
     {
       "id": "VT-146",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=12x55",
       "plano": "1157-EST-2355-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9362,7 +9362,7 @@
     },
     {
       "id": "VT-147",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=12x55",
       "plano": "1157-EST-2355-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9372,7 +9372,7 @@
     },
     {
       "id": "VT-148",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=12x55",
       "plano": "1157-EST-2355-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9382,7 +9382,7 @@
     },
     {
       "id": "VT-149",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=12x55",
       "plano": "1157-EST-2355-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9392,7 +9392,7 @@
     },
     {
       "id": "VT-150",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=12x55",
       "plano": "1157-EST-2355-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9402,7 +9402,7 @@
     },
     {
       "id": "VT-151",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=12x55",
       "plano": "1157-EST-2355-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9412,7 +9412,7 @@
     },
     {
       "id": "VT-152",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=12x55",
       "plano": "1157-EST-2355-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9422,7 +9422,7 @@
     },
     {
       "id": "VT-153",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=12x55",
       "plano": "1157-EST-2355-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9432,7 +9432,7 @@
     },
     {
       "id": "VT-154",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=12x55",
       "plano": "1157-EST-2356-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9442,7 +9442,7 @@
     },
     {
       "id": "VT-155",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=12x55",
       "plano": "1157-EST-2356-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9452,7 +9452,7 @@
     },
     {
       "id": "VT-156",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=12x55",
       "plano": "1157-EST-2356-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9462,7 +9462,7 @@
     },
     {
       "id": "VT-157",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=12x55",
       "plano": "1157-EST-2356-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9472,7 +9472,7 @@
     },
     {
       "id": "VT-158",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=12x55",
       "plano": "1157-EST-2356-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9482,7 +9482,7 @@
     },
     {
       "id": "VT-159",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=12x55",
       "plano": "1157-EST-2356-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9492,7 +9492,7 @@
     },
     {
       "id": "VT-160",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=12x55",
       "plano": "1157-EST-2356-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9502,7 +9502,7 @@
     },
     {
       "id": "VT-161",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=12x55",
       "plano": "1157-EST-2356-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 2,
@@ -9512,7 +9512,7 @@
     },
     {
       "id": "VT-162",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=12x55",
       "plano": "1157-EST-2356-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9522,7 +9522,7 @@
     },
     {
       "id": "VT-163",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=12x55",
       "plano": "1157-EST-2356-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9532,7 +9532,7 @@
     },
     {
       "id": "VT-164",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=12x55",
       "plano": "1157-EST-2356-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9542,7 +9542,7 @@
     },
     {
       "id": "VT-165",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=12x55",
       "plano": "1157-EST-2356-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9552,7 +9552,7 @@
     },
     {
       "id": "VT-166",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=12x55",
       "plano": "1157-EST-2356-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9562,7 +9562,7 @@
     },
     {
       "id": "VT-167",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=12x55, 20x55",
       "plano": "1157-EST-2357-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 2,
@@ -9572,7 +9572,7 @@
     },
     {
       "id": "VT-168",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=12x55, 20x55",
       "plano": "1157-EST-2357-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 2,
@@ -9582,7 +9582,7 @@
     },
     {
       "id": "VT-169",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=12x55, 20x55",
       "plano": "1157-EST-2357-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 2,
@@ -9592,7 +9592,7 @@
     },
     {
       "id": "VT-170",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=12x55, 20x55",
       "plano": "1157-EST-2357-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 2,
@@ -9602,7 +9602,7 @@
     },
     {
       "id": "VT-175",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=12x55",
       "plano": "1157-EST-2357-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9612,7 +9612,7 @@
     },
     {
       "id": "VT-176",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=12x55",
       "plano": "1157-EST-2357-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9622,7 +9622,7 @@
     },
     {
       "id": "VT-177",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=12x55",
       "plano": "1157-EST-2357-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 1,
@@ -9632,7 +9632,7 @@
     },
     {
       "id": "VT-178",
-      "piso": "Sotano 1",
+      "piso": "Sotano",
       "seccion": "S=12x55",
       "plano": "1157-EST-2357-PD-P1-DESPIECE VIGAS S1",
       "cantidad": 2,
