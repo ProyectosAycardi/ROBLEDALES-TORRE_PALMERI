@@ -12,7 +12,20 @@
     "directorProyecto": "Cristina Gil",
     "carbono": 0.24,
     "progresoDibujo": 100,
-    "progresoDiseno": 100
+    "progresoDiseno": 100,
+    "configuracion": {
+      "columnas": true,
+      "muros": true,
+      "vigas": true,
+      "vigasAcople": false,
+      "losas": true,
+      "contencion": true,
+      "pilotes": true,
+      "vigasCimentacion": true,
+      "losaCimentacion": true,
+      "noes": true,
+      "nombreVigas": "Vigas"
+    }
   },
   "planos": [
     {
