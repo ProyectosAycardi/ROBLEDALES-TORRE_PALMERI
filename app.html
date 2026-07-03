@@ -6,14 +6,19 @@
     <title>Proyecto</title>
 
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 </head>
 <body class="home">
 
 <!-- FRANJA SUPERIOR -->
 <header class="header">
   <!-- Flecha atrás -->
-  <button id="btnCerrarSesion" onclick="window.location.href='index.html'" class="btn-logout" title="Cerrar sesión">
-    ⬅️ Salir
+  <button id="btnCerrarSesion"
+        onclick="window.location.href='index.html'"
+        class="btn-logout"
+        title="Cerrar sesión"><span class="material-symbols-outlined">logout</span></a>
+
   </button>
 
   <!-- Títulos -->
@@ -31,7 +36,7 @@
 <div id="carbonoWidget" class="carbono-widget">
   <div class="carbono-card">
     <div class="carbono-valor" id="carbonoValor">--</div>
-    <div class="carbono-unidad">Ton CO₂ eq</div>
+    <div class="carbono-unidad">kg CO₂ eq</div>
     <div class="carbono-label">Huella de carbono</div>
   </div>
 
@@ -83,22 +88,22 @@
     <div class="menu-seccion">
     <h3 class="menu-titulo">Elementos de cimentación</h3>
     <div class="menu-grid">
-      <a class="card" href="cimentacion.html?tipo=pilotes" data-seccion="estructural">
+      <a id="cardPilotes"class="card" href="cimentacion.html?tipo=pilotes" data-seccion="estructural">
           <img src="assets/img/pilotes.png">
           <span>Pilotes</span>
       </a>
 
-      <a class="card" href="cimentacion.html?tipo=contencion" data-seccion="estructural">
+      <a id="cardContencion"class="card" href="cimentacion.html?tipo=contencion" data-seccion="estructural">
           <img src="assets/img/contencion.png">
           <span>Contención</span>
       </a>
 
-      <a class="card" href="cimentacion.html?tipo=vigas" data-seccion="estructural">
+      <a id="cardVigasCimentacion"class="card" href="cimentacion.html?tipo=vigas" data-seccion="estructural">
           <img src="assets/img/vigas.png">
           <span>Vigas cimentación</span>
       </a>
 
-      <a class="card" href="cimentacion.html?tipo=losas" data-seccion="estructural">
+      <a id="cardLosaCimentacion" class="card" href="cimentacion.html?tipo=losas" data-seccion="estructural">
           <img src="assets/img/losacim.png">
           <span>Placa de cimentación</span>
       </a>
@@ -108,27 +113,32 @@
   <div class="menu-seccion">
     <h3 class="menu-titulo">Elementos superestructura</h3>
     <div class="menu-grid">
-      <a class="card" href="elementos.html?tipo=columnas" data-seccion="estructural">
+      <a id="cardColumnas" class="card" href="elementos.html?tipo=columnas" data-seccion="estructural">
           <img src="assets/img/columnas.png">
           <span>Columnas</span>
       </a>
 
-      <a class="card" href="elementos.html?tipo=muros" data-seccion="estructural">
+      <a id="cardMuros"class="card" href="elementos.html?tipo=muros" data-seccion="estructural">
           <img src="assets/img/muros.png">
           <span>Muros</span>
       </a>
 
-      <a class="card" href="elementos.html?tipo=vigas" data-seccion="estructural">
+      <a id="cardVigas"class="card" href="elementos.html?tipo=vigas" data-seccion="estructural">
           <img src="assets/img/vigas.png">
           <span>Vigas</span>
       </a>
 
-      <a class="card" href="elementos.html?tipo=losas" data-seccion="estructural">
+      <a id="cardVigasAcople"class="card" href="elementos.html?tipo=vigas_acople" data-seccion="estructural">
+          <img src="assets/img/vigas.png">
+          <span>Vigas Acople</span>
+      </a>
+
+      <a id="cardLosas"class="card" href="elementos.html?tipo=losas" data-seccion="estructural">
           <img src="assets/img/losa.png">
           <span>Losa de Entrepiso</span>
       </a>
 
-      <a class="card" href="noes.html" data-seccion="estructural">
+      <a id="cardNoes"class="card" href="noes.html" data-seccion="estructural">
           <img src="assets/img/NoEs.png">
           <span>Muros No Estructurales</span>
       </a>

@@ -72,6 +72,26 @@ const tipoGrafica = document.getElementById("tipoGrafica");
 
 let chart = null;
 
+function configurarSideMenu() {
+
+  const config = DATA.info.configuracion || {};
+
+  if (!config.contencion)
+      document.getElementById("sideContencion")?.remove();
+
+  if (!config.vigasCimentacion)
+      document.getElementById("sideVigasCim")?.remove();
+
+  if (!config.losaCimentacion)
+      document.getElementById("sideLosaCim")?.remove();
+
+  if (!config.pilotes)
+      document.getElementById("sidePilotes")?.remove();
+
+  if (!config.noes)
+      document.getElementById("sideNoes")?.remove();
+}
+
 if (!TIPOS_CIMENTACION.includes(tipo)) {
   detalle.innerHTML = "<p>Tipo no válido para cimentación</p>";
   throw new Error("Tipo no válido en cimentacion.js");
@@ -85,6 +105,14 @@ fetch("data/datos.json")
   .then(res => res.json())
   .then(data => {
     DATA = data;
+    configurarSideMenu();
+        const botonActivo =
+    document.querySelector(`#side${tipo.charAt(0).toUpperCase() + tipo.slice(1)}`);
+
+    if (botonActivo) {
+        botonActivo.classList.add("active");
+    }
+
     document.getElementById("tituloProyecto").textContent =
       data.info.proyecto;
 
@@ -135,9 +163,16 @@ elementos = [...elementosOriginales];
 buscador.addEventListener("input", e => {
   const txt = e.target.value.toLowerCase();
 
-  elementos = elementosOriginales.filter(el =>
-  JSON.stringify(el).toLowerCase().includes(txt)
-  );
+  elementos = elementosOriginales.filter(el => {
+
+    return (
+      String(el.id || "").toLowerCase().includes(txt) ||
+      String(el.seccion || "").toLowerCase().includes(txt) ||
+      String(el.plano || "").toLowerCase().includes(txt) ||
+      String(el.piso || "").toLowerCase().includes(txt)
+    );
+
+  });
 
   cargarLista();
 
@@ -1067,13 +1102,19 @@ function obtenerOrdenPiso(piso) {
 
 
 function colorPorResistencia(r) {
-  if (r <= 21) return "#0019FF"; 
-  if (r <= 24.5) return "#0049FF";
-  if (r <= 28) return "#0062FF";
-  if (r <= 31.5) return "#00AAFF";  
-  if (r <= 35) return "#00C3FF"; 
-  if (r <= 42) return "#00D8FF";
-  if (r <= 49) return "#00F3FF"; 
+  if (r <= 14)   return "#4338CA"; // Índigo oscuro
+  if (r <= 17.5) return "#6366F1"; // Índigo
+  if (r <= 21)   return "#8B5CF6"; // Morado
+  if (r <= 24.5) return "#3B82F6"; // Azul
+  if (r <= 28)   return "#14B8A6"; // Cian
+  if (r <= 31.5) return "#21da9c"; // Turquesa
+  if (r <= 32) return "#21da9c"; // Turquesa
+  if (r <= 35)   return "#84CC16"; // Verde
+  if (r <= 38.5) return "#EAB308"; // Verde lima
+  if (r <= 42)   return "#F59E0B"; // Amarillo
+  if (r <= 49)   return "#F97316"; // Ámbar
+  if (r <= 56)   return "#EF4444"; // Naranja
+  if (r <= 63)   return "#DC2626"; // Rojo
   return "#C0392B";                 
 }
 

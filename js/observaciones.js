@@ -7,6 +7,7 @@ fetch("data/datos.json")
 document.getElementById("tituloProyecto").textContent =
 data.info.proyecto;
 
+
 OBS = data.observaciones || [];
 
 llenarFiltroCategorias();

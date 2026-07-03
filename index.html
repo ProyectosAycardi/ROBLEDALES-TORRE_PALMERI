@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Acceso al proyecto</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 </head>
 <body class="login">
 
@@ -37,8 +39,26 @@
 
       <h2>Inicio de sesión</h2>
 
-      <input type="text" id="usuario" placeholder="Usuario">
-      <input type="password" id="password" placeholder="Contraseña">
+      <div class="input-group">
+          <span class="material-symbols-outlined input-icon">
+              person
+          </span>
+
+          <input type="text"
+                id="usuario"
+                placeholder="Usuario">
+      </div>
+
+      <div class="input-group">
+
+          <span class="material-symbols-outlined input-icon">
+              lock
+          </span>
+
+          <input type="password"
+                id="password"
+                placeholder="Contraseña">
+      </div>
 
       <button onclick="login()">Ingresar</button>
 

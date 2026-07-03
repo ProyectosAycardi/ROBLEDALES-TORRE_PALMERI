@@ -31,6 +31,14 @@ const CAMPOS = {
     peso: "Peso refuerzo (kg)",
     volumen: "Volumen (m³)"
   },
+  vigas_acople: {
+    id: "ID Viga Acople",
+    piso: "Piso",
+    seccion: "Sección",
+    plano: "Plano",
+    peso: "Peso refuerzo (kg)",
+    volumen: "Volumen (m³)"
+  },
     losas: {
     piso: "Piso",
     plano: "Plano",
@@ -49,6 +57,8 @@ let elementoSeleccionado = null;
 
 const tipo = new URLSearchParams(window.location.search).get("tipo");
 
+let nombreSeccion = "";
+
 const tituloSeccion = document.getElementById("tituloSeccion");
 const lista = document.getElementById("lista");
 const detalle = document.getElementById("detalle");
@@ -56,6 +66,35 @@ const buscador = document.getElementById("buscador");
 const tipoGrafica = document.getElementById("tipoGrafica");
 
 let chart = null;
+
+function configurarSideMenu() {
+
+  const config = DATA.info.configuracion || {};
+
+  if (!config.columnas)
+      document.getElementById("sideColumnas")?.remove();
+
+  if (!config.muros)
+      document.getElementById("sideMuros")?.remove();
+
+  if (!config.vigas)
+      document.getElementById("sideVigas")?.remove();
+
+  if (!config.vigasAcople)
+      document.getElementById("sideVigasAcople")?.remove();
+
+  if (!config.losas)
+      document.getElementById("sideLosas")?.remove();
+
+  if (!config.noes)
+      document.getElementById("sideNoes")?.remove();
+}
+
+function obtenerTablaActual() {
+  return tipo === "vigas_acople"
+    ? DATA.vigas_acople
+    : DATA[tipo];
+}
 
 /* =====================================================
    INICIALIZACIÓN 
@@ -65,6 +104,32 @@ fetch("data/datos.json")
   .then(res => res.json())
   .then(data => {
     DATA = data;
+    configurarSideMenu();
+    const botonActivo =
+    document.querySelector(`#side${tipo.charAt(0).toUpperCase() + tipo.slice(1)}`);
+
+    if (botonActivo) {
+        botonActivo.classList.add("active");
+    }
+
+    const config = DATA.info.configuracion || {};
+
+    if (tipo === "vigas") {
+        nombreSeccion = config.nombreVigas || "Vigas";
+    }
+    else if (tipo === "vigas_acople") {
+        nombreSeccion = "Vigas de Acople";
+    }
+    else if (tipo === "losas") {
+        nombreSeccion = "Losas";
+    }
+    else {
+        nombreSeccion =
+            tipo.charAt(0).toUpperCase() + tipo.slice(1);
+    }
+
+    tituloSeccion.textContent = nombreSeccion;
+
     document.getElementById("tituloProyecto").textContent =
       data.info.proyecto;
 
@@ -73,7 +138,7 @@ fetch("data/datos.json")
       return;
     }
 
-    if (tipo === "vigas" || tipo === "losas") {
+    if (tipo === "vigas" || tipo === "vigas_acople" || tipo === "losas") {
 
       elementos = DATA[tipo].filter(e =>
         !e.piso ||
@@ -119,9 +184,16 @@ fetch("data/datos.json")
 buscador.addEventListener("input", e => {
   const txt = e.target.value.toLowerCase();
 
-  const filtrados = DATA[tipo].filter(el =>
-    JSON.stringify(el).toLowerCase().includes(txt)
-  );
+  const filtrados = DATA[tipo].filter(el => {
+
+    return (
+      String(el.id || "").toLowerCase().includes(txt) ||
+      String(el.seccion || "").toLowerCase().includes(txt) ||
+      String(el.plano || "").toLowerCase().includes(txt) ||
+      String(el.piso || "").toLowerCase().includes(txt)
+    );
+
+  });
 
   elementos = filtrados;
   cargarLista();
@@ -297,7 +369,7 @@ function seleccionarElemento(el) {
     <div class="card-detalle" id="cardDetalle">
       ${Object.keys(campos)
         .filter(c => {
-          if (tipo === "vigas" && (c === "peso" || c === "volumen")) {
+          if ((tipo === "vigas" || tipo === "vigas_acople")&& (c === "peso" || c === "volumen")) {
             return false;
           }
           return el[c] !== undefined;
@@ -360,7 +432,7 @@ function seleccionarElemento(el) {
 
   let registros;
 
-  if (tipo === "vigas") {
+  if (tipo === "vigas" || tipo === "vigas_acople") {
     // 👉 SOLO la viga seleccionada
     registros = [el];
   } else {
@@ -372,7 +444,7 @@ function seleccionarElemento(el) {
 
 
 
-  if (tipo === "vigas") {
+  if (tipo === "vigas" || tipo === "vigas_acople") {
   const aceroPiso = obtenerAceroTotalVigasPorPiso(el.piso);
 
   document.getElementById("kpiPeso").textContent =
@@ -498,22 +570,25 @@ function actualizarKPIs(registrosElemento, pisoSeleccionado) {
         `Volumen total de ${cantidad} ${nombreTipo} Tipo ${el.id} (m³)`;
 
     }
-    else if (tipo === "vigas") {
+    else if (tipo === "vigas" || tipo === "vigas_acople") {
 
       const piso = registrosElemento[0]?.piso || "";
 
+      const nombreVigas =
+        DATA.info.configuracion?.nombreVigas || "Vigas";
+
       labelVol.textContent =
-        `Volumen total de vigas en ${piso} (m³)`;
+        `Volumen total de ${nombreVigas.toLowerCase()} en ${piso} (m³)`;
 
     }
   }
 
-  if (tipo === "vigas") {
+  if (tipo === "vigas" || tipo === "vigas_acople") {
 
     const piso = registrosElemento[0]?.piso;
 
     // Volumen TOTAL de vigas del piso (para cuantía promedio)
-    volumenTotal = DATA.vigas
+    volumenTotal = obtenerTablaActual()
       .filter(v => v.piso === piso)
       .reduce((s, v) => s + (Number(v.volumen) || 0), 0);
 
@@ -632,13 +707,13 @@ function renderGrafica() {
   }
 
   // ===== VIGAS =====
-  else if (tipo === "vigas") {
+  else if (tipo === "vigas" || tipo === "vigas_acople") {
     const piso = elementoSeleccionado.piso;
 
     valorUnidad =
       campo === "peso"
         ? obtenerAceroTotalVigasPorPiso(piso)
-        : DATA.vigas
+        : obtenerTablaActual()
             .filter(v => v.piso === piso)
             .reduce((s, v) => s + (Number(v.volumen) || 0), 0);
 
@@ -959,17 +1034,22 @@ function mostrarComparativoEntrepiso(pisoSeleccionado) {
 
 function obtenerTotalProyectoPorTipo(campo) {
 
-  if (tipo === "vigas") {
-    if (campo === "peso") {
-      const pisos = [...new Set(DATA.vigas.map(v => v.piso))];
-      return pisos.reduce(
-        (s, p) => s + obtenerAceroTotalVigasPorPiso(p), 0
-      );
-    }
+  if (tipo === "vigas" || tipo === "vigas_acople") {
 
-    return DATA.vigas.reduce(
-      (s, v) => s + (Number(v[campo]) || 0), 0
-    );
+      const tabla = obtenerTablaActual();
+
+      if (campo === "peso") {
+
+          const pisos = [...new Set(tabla.map(v => v.piso))];
+
+          return pisos.reduce(
+              (s, p) => s + obtenerAceroTotalVigasPorPiso(p), 0
+          );
+      }
+
+      return tabla.reduce(
+          (s, v) => s + (Number(v[campo]) || 0), 0
+      );
   }
 
   if (tipo === "losas") {
@@ -1028,13 +1108,19 @@ function obtenerOrdenPiso(piso) {
 
 
 function colorPorResistencia(r) {
-  if (r <= 21) return "#0019FF"; 
-  if (r <= 24.5) return "#0049FF";
-  if (r <= 28) return "#0062FF";
-  if (r <= 31.5) return "#00AAFF";  
-  if (r <= 35) return "#00C3FF"; 
-  if (r <= 42) return "#00D8FF";
-  if (r <= 49) return "#00F3FF"; 
+  if (r <= 14)   return "#4338CA"; // Índigo oscuro
+  if (r <= 17.5) return "#6366F1"; // Índigo
+  if (r <= 21)   return "#8B5CF6"; // Morado
+  if (r <= 24.5) return "#3B82F6"; // Azul
+  if (r <= 28)   return "#14B8A6"; // Cian
+  if (r <= 31.5) return "#21da9c"; // Turquesa
+  if (r <= 32) return "#21da9c"; // Turquesa
+  if (r <= 35)   return "#84CC16"; // Verde
+  if (r <= 38.5) return "#EAB308"; // Verde lima
+  if (r <= 42)   return "#F59E0B"; // Amarillo
+  if (r <= 49)   return "#F97316"; // Ámbar
+  if (r <= 56)   return "#EF4444"; // Naranja
+  if (r <= 63)   return "#DC2626"; // Rojo
   return "#C0392B";                 
 }
 
@@ -1059,16 +1145,23 @@ function agruparVigasPorPiso(vigas) {
 }
 
 function obtenerAceroTotalVigasPorPiso(piso) {
-  const vigasPiso = DATA.vigas.filter(v =>
-    v.piso === piso &&
-    v.peso !== undefined &&
-    v.peso !== null &&
-    v.peso !== "" &&
-    !isNaN(Number(v.peso))
+
+  const tabla =
+      tipo === "vigas_acople"
+          ? DATA.vigas_acople
+          : DATA.vigas;
+
+  const vigasPiso = tabla.filter(v =>
+      v.piso === piso &&
+      v.peso !== undefined &&
+      v.peso !== null &&
+      v.peso !== "" &&
+      !isNaN(Number(v.peso))
   );
 
-  // El acero total del piso viene solo en UNA viga
-  return vigasPiso.length > 0 ? Number(vigasPiso[0].peso) : 0;
+  return vigasPiso.length > 0
+      ? Number(vigasPiso[0].peso)
+      : 0;
 }
 
 function filtrarPorPiso() {

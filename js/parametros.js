@@ -3,11 +3,49 @@
    Depende de: data/datos.json
    Uso: Información básica del proyecto, materiales y contacto
 ========================================== */
+let DATA = {};
+
+function configurarSideMenu() {
+
+  const config = DATA.info.configuracion || {};
+
+  if (!config.columnas)
+      document.getElementById("sideColumnas")?.remove();
+
+  if (!config.muros)
+      document.getElementById("sideMuros")?.remove();
+
+  if (!config.vigas)
+      document.getElementById("sideVigas")?.remove();
+
+  if (!config.vigasAcople)
+      document.getElementById("sideVigasAcople")?.remove();
+
+  if (!config.losas)
+      document.getElementById("sideLosas")?.remove();
+
+  if (!config.noes)
+      document.getElementById("sideNoes")?.remove();
+
+  if (!config.contencion)
+      document.getElementById("sideContencion")?.remove();
+
+  if (!config.pilotes)
+      document.getElementById("sidePilotes")?.remove();
+
+  if (!config.vigasCimentacion)
+      document.getElementById("sideVigasCim")?.remove();
+
+  if (!config.losaCimentacion)
+      document.getElementById("sideLosaCim")?.remove();
+}
 
 document.addEventListener("DOMContentLoaded", () => {
   fetch("data/datos.json")
     .then(res => res.json())
     .then(data => {
+      DATA = data;
+
       cargarTitulos(data);
       cargarParametros(data.parametros);
       cargarMateriales(data.materiales);
@@ -15,6 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
       configurarCorreo(data.info);
       configurarCorreo2(data.info);
       cargarCliente(data.info); 
+      configurarSideMenu();
     })
     .catch(err => console.error("Error cargando datos:", err));
 });

@@ -6,17 +6,26 @@
   <title>Elementos</title>
 
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 </head>
 <body>
 
 <!-- HEADER -->
 <header class="header">
   <!-- Flecha atrás -->
-   <div class="header-left">
-    <button class="back" onclick="history.back()">←</button>
-
-    <button class="icon-btn" onclick="window.location.href='app.html'" title="Inicio">🏠</button>
-  </div>
+<div class="header-left">
+    <button class="back" onclick="history.back()" title="Volver">
+        <span class="material-symbols-outlined">
+            arrow_back
+        </span>
+    </button>
+    <button class="btn-home" onclick="window.location.href='app.html'" title="Inicio">
+        <span class="material-symbols-outlined">
+            home
+        </span>
+    </button>
+</div>
   <!-- Títulos -->
   <div class="header-center">
     <h1 id="tituloProyecto"></h1>
@@ -104,15 +113,15 @@
 </body>
 
 <nav class="side-menu">
-  <a href="parametros.html" title="Parámetros">📋</a>
-  <a href="cimentacion.html?tipo=contencion" title="Contencion"><img src="assets/img/ICONOS/IcoCont.png" width="20" height="30"></a>
-  <a href="cimentacion.html?tipo=vigas" title="VigasCim"><img src="assets/img/ICONOS/IcoVigCim.png" width="20" height="30"></a>
-  <a href="cimentacion.html?tipo=losas" title="LosaCim"><img src="assets/img/ICONOS/IcoLosaCim.png" width="20" height="30"></a>
-  <a href="cimentacion.html?tipo=pilotes" title="Pilotes"><img src="assets/img/ICONOS/IcoPilote.png" width="20" height="30"></a>
   <a href="planos.html" title="Planos"><img src="assets/img/ICONOS/IcoPlano.png" width="20" height="30"></a>
-  <a href="noes.html" title="Elementos NOES"><img src="assets/img/ICONOS/IcoNoes.png" width="20" height="30"></a>
-  <a href="recomendaciones.html" title="Informes Técnicos"><img src="assets/img/ICONOS/IcoRecom.png" width="20" height="30"></a>
-
+  <a href="parametros.html" title="Parámetros"><span class="material-symbols-outlined">assignment</span></a>
+  <a id="sideContencion" href="cimentacion.html?tipo=contencion" title="Contencion"><img src="assets/img/ICONOS/IcoCont.png" width="20" height="30"></a>
+  <a id="sideVigasCim" href="cimentacion.html?tipo=vigas" title="Vigas Cimentacion"><img src="assets/img/ICONOS/IcoVigCim.png" width="20" height="30"></a>
+  <a id="sideLosaCim" href="cimentacion.html?tipo=losas" title="Losa Cimentacion><img src="assets/img/ICONOS/IcoLosaCim.png" width="20" height="30"></a>
+  <a id="sidePilotes" href="cimentacion.html?tipo=pilotes" title="Pilotes"><img src="assets/img/ICONOS/IcoPilote.png" width="20" height="30"></a>
+  <a id="sideNoes" href="noes.html" title="Elementos NOES"><img src="assets/img/ICONOS/IcoNoes.png" width="20" height="30"></a>
+  <a href="recomendaciones.html" title="Informes Técnicos"><span class="material-symbols-outlined">lightbulb</span></a>
+  <a href="observaciones.html" title="Observaciones"><span class="material-symbols-outlined">check_alert</span></a>
 </nav>
 
 </html>
